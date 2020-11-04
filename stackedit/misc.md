@@ -10,8 +10,8 @@ rally-okta -B. # Bootstrap OKTA configuration
 ## AWS Profiles
 ```sh
 rally-okta -w  # Write AWS Credentials for all profiles
-# View session expiration
+rally-okta -s # View session expiration
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDc5NjkzOF19
+eyJoaXN0b3J5IjpbLTU2MjY1MTY5Nl19
 -->
