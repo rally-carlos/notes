@@ -27,11 +27,12 @@ export AWS_DEFAULT_OUTPUT="text"
 ```sh
 aws eks list-clusters
 aws eks update-kubeconfig --name eks-staging-cje-k8s
+kubectl get pods --all-namespaces
 ```
 
 ## SCAB
 https://github.com/AudaxHealthInc/ops-access-tools/blob/master/README-connect-to-scab.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTgyODAzNywtMTM1NzkyNDQ1MSw1MT
-g5MTcxMzEsLTU2MjY1MTY5Nl19
+eyJoaXN0b3J5IjpbLTE0NjYzNjQwMTksLTEzNTc5MjQ0NTEsNT
+E4OTE3MTMxLC01NjI2NTE2OTZdfQ==
 -->
