@@ -15,17 +15,23 @@ rally-okta -w  # Write AWS Credentials for all profiles
 rally-okta -s # View session expiration
 ```
 
+```sh
 export AWS_PROFILE="rally-dev"
 export AWS_DEFAULT_REGION="us-east-1"
 export ROLE_SESSION_NAME="defaultaccess-rally-dev"
 export AWS_DEFAULT_OUTPUT="text"
+```
 
 ## K8s
-
+(Assuming AWS environment variables have been set)
+```sh
+aws eks list-clusters
+aws eks update-kubeconfig --name eks-staging-cje-k8s
+```
 
 ## SCAB
 https://github.com/AudaxHealthInc/ops-access-tools/blob/master/README-connect-to-scab.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc5MjQ0NTEsNTE4OTE3MTMxLC01Nj
-I2NTE2OTZdfQ==
+eyJoaXN0b3J5IjpbLTc4NTgyODAzNywtMTM1NzkyNDQ1MSw1MT
+g5MTcxMzEsLTU2MjY1MTY5Nl19
 -->
