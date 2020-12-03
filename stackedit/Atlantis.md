@@ -1,4 +1,8 @@
-#
+# Production
+* AWS Account: `rally-prod`
+* TENANT: `ops-prod-1`
+* Web UI: https://atlantis.werally.com/
+
 # Kyle's POC
 * AWS Account: `rally-ops`
 * IP: `54.242.6453`
@@ -10,5 +14,5 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA2MzMxODVdfQ==
+eyJoaXN0b3J5IjpbNDE2MjQxNjIxXX0=
 -->
