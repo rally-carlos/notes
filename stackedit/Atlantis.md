@@ -5,8 +5,9 @@
 &nbsp;
 * Tenant: `ops-prod-1`
 * Web UI: https://atlantis.werally.com/
-&nbsp;9
-* [B](https://ci.rally-dev.com/teams-cure/blue/organizations/cure/rally-docker-ops-atlantis/)
+&nbsp;
+* [Deployment Build](https://ci.rally-dev.com/teams-cure/blue/organizations/cure/rally-docker-ops-atlantis/)
+* [Deployment Build](https://ci.rally-dev.com/teams-cure/job/cure/job/rally-docker-ops-atlantis/)
 
 ```
 AWS_PROFILE=rally-prod AWS_DEFAULT_REGION=us-east-1 aws eks update-kubeconfig --name eks-ops-prod-1
@@ -27,6 +28,6 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTg2NTg2NSwtMTYwNDkzMDA5MywtMj
+eyJoaXN0b3J5IjpbLTk0NTUyODYyNSwtMTYwNDkzMDA5MywtMj
 A5ODEwNjUxNSwxNzk3MjQyMjM1LDQxNjI0MTYyMV19
 -->
