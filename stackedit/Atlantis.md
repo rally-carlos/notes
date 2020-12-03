@@ -17,7 +17,7 @@ kubectl exec --stdin --tty --namespace ops ${ATLANTIS_POD} -- su - atlantis -s /
 ```
 
 ## Run Terraform in container
-
+To deal w/ secrets in Vault refer to `docker_entrypoint.sh` to see what other vars are required.
 ```
 kubectl exec --stdin --tty --namespace ops ${ATLANTIS_POD} -- bash
 gosu atlantis bash -c "\
@@ -40,7 +40,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTcyNTM3MiwtMjEwMjk3Njc5NywtOT
-Q1NTI4NjI1LC0xNjA0OTMwMDkzLC0yMDk4MTA2NTE1LDE3OTcy
-NDIyMzUsNDE2MjQxNjIxXX0=
+eyJoaXN0b3J5IjpbLTE0ODMyNzE5MDUsLTIxMDI5NzY3OTcsLT
+k0NTUyODYyNSwtMTYwNDkzMDA5MywtMjA5ODEwNjUxNSwxNzk3
+MjQyMjM1LDQxNjI0MTYyMV19
 -->
