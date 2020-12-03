@@ -17,6 +17,7 @@ kubectl exec --stdin --tty --namespace ops ${ATLANTIS_POD} -- bash
 * AWS Account: `rally-ops`
 * IP: `54.242.6453`
 * Web UI: http://54.242.64.53:4141/
+
 ```
 Host atlantis-kyle
 	HostName 54.242.64.53
@@ -24,6 +25,6 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjA2NDkzMywtMjA5ODEwNjUxNSwxNz
-k3MjQyMjM1LDQxNjI0MTYyMV19
+eyJoaXN0b3J5IjpbLTE2MDQ5MzAwOTMsLTIwOTgxMDY1MTUsMT
+c5NzI0MjIzNSw0MTYyNDE2MjFdfQ==
 -->
