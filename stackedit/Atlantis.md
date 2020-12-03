@@ -20,9 +20,9 @@ kubectl exec --stdin --tty --namespace ops ${ATLANTIS_POD} -- su - atlantis -s /
 
 ```
 gosu atlantis bash -c "\
-  ATLANTIS_ARTIFACTORY_APITOKEN=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $vault_url/v1/secret/data/ops/atlantis/artifactory_apitoken | jq '.data.data[]' | tr -d '"') \
-  ATLANTIS_AWS_ACCESS_KEY_ID=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $vault_url/v1/secret/data/ops/atlantis/aws_access_key_id | jq '.data.data[]' | tr -d '"') \
-  ATLANTIS_AWS_SECRET_ACCESS_KEY=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $vault_url/v1/secret/data/ops/atlantis/aws_secret_access_key | jq '.data.data[]' | tr -d '"') \
+  ATLANTIS_ARTIFACTORY_APITOKEN=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/artifactory_apitoken | jq '.data.data[]' | tr -d '"') \
+  ATLANTIS_AWS_ACCESS_KEY_ID=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" "$ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/aws_access_key_id" | jq '.data.data[]' | tr -d '"') \
+  ATLANTIS_AWS_SECRET_ACCESS_KEY=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/aws_secret_access_key | jq '.data.data[]' | tr -d '"') \
   bash
 ```
 
@@ -38,7 +38,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg3MTA4MSwtMjEwMjk3Njc5NywtOT
+eyJoaXN0b3J5IjpbMTg0OTE3MDg2MiwtMjEwMjk3Njc5NywtOT
 Q1NTI4NjI1LC0xNjA0OTMwMDkzLC0yMDk4MTA2NTE1LDE3OTcy
 NDIyMzUsNDE2MjQxNjIxXX0=
 -->
