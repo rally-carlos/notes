@@ -26,7 +26,7 @@ gosu atlantis bash -c "\
   AWS_ACCESS_KEY_ID=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/aws_access_key_id | jq '.data.data[]' | tr -d '"') \
   AWS_SECRET_ACCESS_KEY=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/aws_secret_access_key | jq '.data.data[]' | tr -d '"') \
   bash"
-cd ~/.atlantis/repos/AudaxHealthInc/
+cd ~/.atlantis/repos/AudaxHealthInc/<repo>/<pull-request>/<workspace>
 ```
 
 # Kyle's POC
@@ -41,7 +41,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcxODY4NzcsLTIxMDI5NzY3OTcsLT
+eyJoaXN0b3J5IjpbLTEyNDU3MjM0NzEsLTIxMDI5NzY3OTcsLT
 k0NTUyODYyNSwtMTYwNDkzMDA5MywtMjA5ODEwNjUxNSwxNzk3
 MjQyMjM1LDQxNjI0MTYyMV19
 -->
