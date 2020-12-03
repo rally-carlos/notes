@@ -1,7 +1,9 @@
 # Production
 * AWS Account: `rally-prod`
-* Region: `us-east0
-* TENANT: `ops-prod-1`
+* Region: `us-east-1`
+* EKS Cluster: `eks-ops-prod-1`
+
+* Tenant: `ops-prod-1`
 * Web UI: https://atlantis.werally.com/
 
 # Kyle's POC
@@ -15,5 +17,5 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjM1NTI5OSw0MTYyNDE2MjFdfQ==
+eyJoaXN0b3J5IjpbLTExNzMxMzkwMDAsNDE2MjQxNjIxXX0=
 -->
