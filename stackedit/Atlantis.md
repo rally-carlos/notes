@@ -21,7 +21,8 @@ To deal w/ secrets in Vault refer to `docker_entrypoint.sh` to see what other va
 ```
 kubectl exec --stdin --tty --namespace ops ${ATLANTIS_POD} -- bash
 gosu atlantis bash -c "\
-  ATLANTIS_ARTIFACTORY_APITOKEN=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/artifactory_apitoken | jq '.data.data[]' | tr -d '"') \
+  VAULT_TOKEN=$VAULT_TOKEN \
+  VAULT_URL=$ILLUMINATI_VAULT_URL \
   AWS_ACCESS_KEY_ID=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/aws_access_key_id | jq '.data.data[]' | tr -d '"') \
   AWS_SECRET_ACCESS_KEY=$(curl -s --header "X-Vault-Token: $(cat $ILLUMINATI_VAULT_K8S_TOKEN_PATH)" $ILLUMINATI_VAULT_URL/v1/secret/data/ops/atlantis/aws_secret_access_key | jq '.data.data[]' | tr -d '"') \
   bash"
@@ -40,7 +41,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM4NDIxMjEsLTIxMDI5NzY3OTcsLT
-k0NTUyODYyNSwtMTYwNDkzMDA5MywtMjA5ODEwNjUxNSwxNzk3
-MjQyMjM1LDQxNjI0MTYyMV19
+eyJoaXN0b3J5IjpbNTMwNzc1NzMyLC0yMTAyOTc2Nzk3LC05ND
+U1Mjg2MjUsLTE2MDQ5MzAwOTMsLTIwOTgxMDY1MTUsMTc5NzI0
+MjIzNSw0MTYyNDE2MjFdfQ==
 -->
