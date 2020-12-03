@@ -16,6 +16,16 @@ kubectl logs --namespace ops --follow ${ATLANTIS_POD}
 kubectl exec --stdin --tty --namespace ops ${ATLANTIS_POD} -- su - atlantis -s /bin/bash
 ```
 
+## Run Terraform in container
+
+```
+gosu atlantis bash -c "\
+  ATLANTIS_ARTIFACTORY_APITOKEN=$(curl -s --header "X-Vault-Token: $VAULT_TOKEN" $vault_url/v1/secret/data/ops/atlantis/artifactory_apitoken | jq '.data.data[]' | tr -d '"') \
+  ATLANTIS_AWS_ACCESS_KEY_ID=$(curl -s --header "X-Vault-Token: $VAULT_TOKEN" $vault_url/v1/secret/data/ops/atlantis/aws_access_key_id | jq '.data.data[]' | tr -d '"') \
+  ATLANTIS_AWS_SECRET_ACCESS_KEY=$(curl -s --header "X-Vault-Token: $VAULT_TOKEN" $vault_url/v1/secret/data/ops/atlantis/aws_secret_access_key | jq '.data.data[]' | tr -d '"') \
+  bash
+```
+
 # Kyle's POC
 * AWS Account: `rally-ops`
 * IP: `54.242.6453`
@@ -28,7 +38,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI5NzY3OTcsLTk0NTUyODYyNSwtMT
-YwNDkzMDA5MywtMjA5ODEwNjUxNSwxNzk3MjQyMjM1LDQxNjI0
-MTYyMV19
+eyJoaXN0b3J5IjpbMjAxMTIyOTA5MCwtMjEwMjk3Njc5NywtOT
+Q1NTI4NjI1LC0xNjA0OTMwMDkzLC0yMDk4MTA2NTE1LDE3OTcy
+NDIyMzUsNDE2MjQxNjIxXX0=
 -->
