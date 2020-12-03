@@ -9,6 +9,8 @@
 ```
 AWS_PROFILE=rally-prod AWS_DEFAULT_REGION=us-east-1 aws eks update-kubeconfig --name eks-ops-prod-1
 ATLANTIS_POD=$(kubectl get pods --namespace=ops | grep -F atlantis | cut -d' ' -f1)
+kubectl logs --namespace ops --follow ${ATLANTIS_POD}
+
 ```
 
 # Kyle's POC
@@ -22,6 +24,6 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTMyNjQ5MSwtMjA5ODEwNjUxNSwxNz
+eyJoaXN0b3J5IjpbMTgxOTA1MTk2MCwtMjA5ODEwNjUxNSwxNz
 k3MjQyMjM1LDQxNjI0MTYyMV19
 -->
