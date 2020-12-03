@@ -28,11 +28,13 @@ export AWS_DEFAULT_OUTPUT="text"
 aws eks list-clusters
 aws eks update-kubeconfig --name eks-staging-cje-k8s
 kubectl get pods --namespace=ops | grep -F atlantis | cut -d' ' -f1
+
 ```
 
 ## SCAB
 https://github.com/AudaxHealthInc/ops-access-tools/blob/master/README-connect-to-scab.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NTAxNzg3LC0xNDY2MzY0MDE5LC0xMz
-U3OTI0NDUxLDUxODkxNzEzMSwtNTYyNjUxNjk2XX0=
+eyJoaXN0b3J5IjpbODYxNTczMTI5LDQ1ODUwMTc4NywtMTQ2Nj
+M2NDAxOSwtMTM1NzkyNDQ1MSw1MTg5MTcxMzEsLTU2MjY1MTY5
+Nl19
 -->
