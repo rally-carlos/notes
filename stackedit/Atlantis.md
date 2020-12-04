@@ -32,10 +32,14 @@ cd ~/.atlantis/repos/AudaxHealthInc/<repo>/<pull-request>/<workspace>
 # Local Test Enviroment
 Good for running Terraform
 ```bash
-docker container run -it \
+docker container run \
+  -it --rm \
   --volume $(pwd):/opt/tf \
   --volume ~/.netrc:/home/atlantis/.netrc \
-  --volume ~/.aws/credentials:/home/atlantis/.aws/credentials --rm --workdir /opt/tf docker.werally.in/runatlantis/atlantis:v0.15.1 bash
+  --volume ~/.aws/credentials:/home/atlantis/.aws/credentials \
+  --workdir /opt/tf \
+  docker.werally.in/runatlantis/atlantis:v0.15.1 \
+  bash
 ```
 
 # Kyle's POC
@@ -50,7 +54,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDQzOTg2OSwtMTI0NTcyMzQ3MSwtMj
+eyJoaXN0b3J5IjpbMTE2NDY1OTQ4NywtMTI0NTcyMzQ3MSwtMj
 EwMjk3Njc5NywtOTQ1NTI4NjI1LC0xNjA0OTMwMDkzLC0yMDk4
 MTA2NTE1LDE3OTcyNDIyMzUsNDE2MjQxNjIxXX0=
 -->
