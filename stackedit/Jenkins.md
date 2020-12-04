@@ -4,7 +4,7 @@ Cloudbees Cloud
 
 # Decrypt Jenkins Secret
 
-## Get Key
+## Get Decyption Key
 ```
 import com.cloudbees.plugins.credentials.*;  
     import com.cloudbees.plugins.credentials.domains.Domain;  
@@ -22,5 +22,5 @@ import com.cloudbees.plugins.credentials.*;
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzUzMjQ4NV19
+eyJoaXN0b3J5IjpbNDk4MzYxNDQ4XX0=
 -->
