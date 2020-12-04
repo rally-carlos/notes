@@ -2,9 +2,9 @@ Cloudbees Cloud
 * https://ci.rally-dev.com/
 * https://ci-staging.werally.in/
 
-# Decrypt Jenkins Secret
+# Retrieve Secrets from Jenkins
 
-## Get Decyption Key
+## Get Decryption Key
 ```
 import com.cloudbees.plugins.credentials.*;  
     import com.cloudbees.plugins.credentials.domains.Domain;  
@@ -22,5 +22,5 @@ import com.cloudbees.plugins.credentials.*;
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MzYxNDQ4XX0=
+eyJoaXN0b3J5IjpbLTE2MTI3OTcyMjhdfQ==
 -->
