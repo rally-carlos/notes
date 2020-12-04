@@ -29,6 +29,15 @@ gosu atlantis bash -c "\
 cd ~/.atlantis/repos/AudaxHealthInc/<repo>/<pull-request>/<workspace>
 ```
 
+# Local Test Enviroment
+Good for running Terraform
+```bash
+docker container run -it \
+  --volume $(pwd):/opt/tf \
+  --volume ~/.netrc:/home/atlantis/.netrc \
+  --volume ~/.aws/credentials:/home/atlantis/.aws/credentials --rm --workdir /opt/tf docker.werally.in/runatlantis/atlantis:v0.15.1 bash
+```
+
 # Kyle's POC
 * AWS Account: `rally-ops`
 * IP: `54.242.6453`
@@ -41,7 +50,7 @@ Host atlantis-kyle
 	IdentityFile /Users/carlos.meza/.ssh/dev_nodes_ed25519
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU3MjM0NzEsLTIxMDI5NzY3OTcsLT
-k0NTUyODYyNSwtMTYwNDkzMDA5MywtMjA5ODEwNjUxNSwxNzk3
-MjQyMjM1LDQxNjI0MTYyMV19
+eyJoaXN0b3J5IjpbMTQzMDQzOTg2OSwtMTI0NTcyMzQ3MSwtMj
+EwMjk3Njc5NywtOTQ1NTI4NjI1LC0xNjA0OTMwMDkzLC0yMDk4
+MTA2NTE1LDE3OTcyNDIyMzUsNDE2MjQxNjIxXX0=
 -->
