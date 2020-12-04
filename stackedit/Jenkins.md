@@ -23,10 +23,13 @@ import com.cloudbees.plugins.credentials.*;
 ```
 
 ## Decrypt Secret
+
+Source:
+* 
 ```groovy
 println(hudson.util.Secret.fromString("{XXX=}").getPlainText())
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg5MDYyODVdfQ==
+eyJoaXN0b3J5IjpbMjg4Mzc5MDcyLC0xNDU4OTA2Mjg1XX0=
 -->
