@@ -5,7 +5,7 @@ Cloudbees Cloud
 # Retrieve Secrets from Jenkins
 
 ## Get Decryption Key
-```
+```groovy
 import com.cloudbees.plugins.credentials.*;  
     import com.cloudbees.plugins.credentials.domains.Domain;  
     import org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl;    println "Jenkins credentials config file location=" + SystemCredentialsProvider.getConfigFile();  
@@ -21,6 +21,12 @@ import com.cloudbees.plugins.credentials.*;
         println ""  
     }
 ```
+
+## Decrypt Secret
+```groovy
+println(hudson.util.Secret.fromString("{XXX=}").getPlainText())
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI3OTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTE0NTg5MDYyODVdfQ==
 -->
