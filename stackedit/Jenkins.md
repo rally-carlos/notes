@@ -25,11 +25,14 @@ import com.cloudbees.plugins.credentials.*;
 ## Decrypt Secret
 
 Source:
+* https://devops.stackexchange.com/a/2192
 * https://gist.github.com/tuxfight3r/eca9442ff76649b057ab
+
 ```groovy
 println(hudson.util.Secret.fromString("{XXX=}").getPlainText())
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDU2Mzg2NywtMTQ1ODkwNjI4NV19
+eyJoaXN0b3J5IjpbLTE2NjIwODg3NzIsLTE0NTg5MDYyODVdfQ
+==
 -->
