@@ -29,10 +29,9 @@ Source:
 * https://gist.github.com/tuxfight3r/eca9442ff76649b057ab
 
 ```groovy
-println(hudson.util.Secret.fromString("{XXX=}").getPlainText())
-
+println(hudson.util.Secret.fromString("{XXX=}")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTIxNDY0OSwtMTY2MjA4ODc3MiwtMT
-Q1ODkwNjI4NV19
+eyJoaXN0b3J5IjpbMTkzODM2MDc4MiwxODkxMjE0NjQ5LC0xNj
+YyMDg4NzcyLC0xNDU4OTA2Mjg1XX0=
 -->
