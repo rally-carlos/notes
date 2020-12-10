@@ -2,10 +2,10 @@
 ```bash
 terraform plan -lock=false -no-color | tee tfplan.output.txt
 
-terraform state pull | tee terraform.tfstate
+terraform state pull | tee tf.state
 
 for ITEM in $(grep -E '^ *- ' tfplan.output.txt | grep -v destroy | sed -e 's/^ *- //'); do \
-  terraform state mv -lock=false -state=terraform.tfstate ${ITEM} module.cje.${ITEM} ; \
+  terraform state mv -lock=false -state=tf.state ${ITEM} module.cje.${ITEM} ; \
 done
 
 # !!!
@@ -15,9 +15,9 @@ done
 # !!!
 
 terraform init
-terraform push -lock=false terraform.state
+terraform push -lock=false tf.state
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODM0NjAxNSw3MzU2MjIyMzQsLTEwMT
-UyOTM4NDYsLTE5ODcyMzQxNzNdfQ==
+eyJoaXN0b3J5IjpbMTcxNzEzMjk1LDczNTYyMjIzNCwtMTAxNT
+I5Mzg0NiwtMTk4NzIzNDE3M119
 -->
