@@ -15,9 +15,9 @@ done
 # !!!
 
 terraform init
-terraform push -lock=false
+terraform push -lock=false terraform.state
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1ODg2NjAwLDczNTYyMjIzNCwtMTAxNT
-I5Mzg0NiwtMTk4NzIzNDE3M119
+eyJoaXN0b3J5IjpbMTI5ODM0NjAxNSw3MzU2MjIyMzQsLTEwMT
+UyOTM4NDYsLTE5ODcyMzQxNzNdfQ==
 -->
