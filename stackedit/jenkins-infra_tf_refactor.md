@@ -17,7 +17,9 @@ done
 terraform init
 terraform push -lock=false tf.state
 ```
+
+Dont forget to cleanup S3 bucket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzEzMjk1LDczNTYyMjIzNCwtMTAxNT
-I5Mzg0NiwtMTk4NzIzNDE3M119
+eyJoaXN0b3J5IjpbMjAxMzYyMjA3OCwxNzE3MTMyOTUsNzM1Nj
+IyMjM0LC0xMDE1MjkzODQ2LC0xOTg3MjM0MTczXX0=
 -->
