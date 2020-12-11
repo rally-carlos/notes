@@ -10,7 +10,7 @@ done
 
 # !!!
 # CHANGE TF S3 BACKEND KEY TO `terraform.tfstate`
-# This will make it easy to swing back to previous state if nessacary.
+# This will make it easy to swing back to a previous state if necessary.
 # I assume the S3 bucket is versioned, but still.
 # !!!
 
@@ -20,6 +20,7 @@ terraform push -lock=false tf.state
 
 Dont forget to cleanup S3 bucket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzYyMjA3OCwxNzE3MTMyOTUsNzM1Nj
-IyMjM0LC0xMDE1MjkzODQ2LC0xOTg3MjM0MTczXX0=
+eyJoaXN0b3J5IjpbMTQzNzYyODE1LDIwMTM2MjIwNzgsMTcxNz
+EzMjk1LDczNTYyMjIzNCwtMTAxNTI5Mzg0NiwtMTk4NzIzNDE3
+M119
 -->
