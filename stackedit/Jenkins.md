@@ -31,7 +31,13 @@ Source:
 ```groovy
 println(hudson.util.Secret.fromString("{XXX=}")
 ```
+
+## Firedrill
+
+```
+AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODM2MDc4MiwxODkxMjE0NjQ5LC0xNj
-YyMDg4NzcyLC0xNDU4OTA2Mjg1XX0=
+eyJoaXN0b3J5IjpbMjE0MjQ1MTYwOSwxOTM4MzYwNzgyLDE4OT
+EyMTQ2NDksLTE2NjIwODg3NzIsLTE0NTg5MDYyODVdfQ==
 -->
