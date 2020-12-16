@@ -32,16 +32,19 @@ Source:
 println(hudson.util.Secret.fromString("{XXX=}")
 ```
 
-## Firedrill
+# Firedrills
 
 1. wake up firedrill jenkins master
 2. https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/
 
+## Runbooks
+* https://app.datadoghq.com/notebook/126235/-runbook-jenkins-masters-home-directory-inode-monitor
+* 
 ```
 AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzOD
-M2MDc4MiwxODkxMjE0NjQ5LC0xNjYyMDg4NzcyLC0xNDU4OTA2
-Mjg1XX0=
+eyJoaXN0b3J5IjpbNDEwMjM1NzQzLDQwNTYzODMyNiwyMTQyND
+UxNjA5LDE5MzgzNjA3ODIsMTg5MTIxNDY0OSwtMTY2MjA4ODc3
+MiwtMTQ1ODkwNjI4NV19
 -->
