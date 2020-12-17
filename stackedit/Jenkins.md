@@ -56,14 +56,15 @@ kubectl get pods --namespace cje | grep -FiI fire
 # Exec into controller
 kubectl exec -it $(kubectl get pods --namespace cje | grep -FiI fire | cut -f1 -d' ') --namespace=cje -- /bin/bash
 
-# See size of builds
+# See size of builds for "Fill Disk"
 du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 
+rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY5MjkwMTYsLTIwMzI5OTQzMTQsLT
-E3NjM2NDI1MTEsMTMwNTIyMTgxMSwxMjg0NzA2ODYzLC03MzA1
-MjE5MjYsMTAwODA0OTMwOCw0MTAyMzU3NDMsNDA1NjM4MzI2LD
-IxNDI0NTE2MDksMTkzODM2MDc4MiwxODkxMjE0NjQ5LC0xNjYy
-MDg4NzcyLC0xNDU4OTA2Mjg1XX0=
+eyJoaXN0b3J5IjpbMTAxOTA5MDc3NCwtMjAzMjk5NDMxNCwtMT
+c2MzY0MjUxMSwxMzA1MjIxODExLDEyODQ3MDY4NjMsLTczMDUy
+MTkyNiwxMDA4MDQ5MzA4LDQxMDIzNTc0Myw0MDU2MzgzMjYsMj
+E0MjQ1MTYwOSwxOTM4MzYwNzgyLDE4OTEyMTQ2NDksLTE2NjIw
+ODg3NzIsLTE0NTg5MDYyODVdfQ==
 -->
