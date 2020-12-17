@@ -34,7 +34,7 @@ println(hudson.util.Secret.fromString("{XXX=}")
 
 # Firedrills
 
-1. wake up firedrill jenkins master
+1. Wake up firedrill [Jenkins Master](https://ci.rally-dev.com/cjoc/job/Teams/job/fire-drill/)
 2. Run build for firedrill
    * https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/
 
@@ -45,7 +45,8 @@ println(hudson.util.Secret.fromString("{XXX=}")
 AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODA0OTMwOCw0MTAyMzU3NDMsNDA1Nj
-M4MzI2LDIxNDI0NTE2MDksMTkzODM2MDc4MiwxODkxMjE0NjQ5
-LC0xNjYyMDg4NzcyLC0xNDU4OTA2Mjg1XX0=
+eyJoaXN0b3J5IjpbLTczMDUyMTkyNiwxMDA4MDQ5MzA4LDQxMD
+IzNTc0Myw0MDU2MzgzMjYsMjE0MjQ1MTYwOSwxOTM4MzYwNzgy
+LDE4OTEyMTQ2NDksLTE2NjIwODg3NzIsLTE0NTg5MDYyODVdfQ
+==
 -->
