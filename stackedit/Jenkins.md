@@ -52,10 +52,13 @@ AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cj
 
 # Find fire drill controller to monitor restore
 kubectl get pods --namespace cje | grep -FiI fire
+
+# Exec into controller
+kubectl exec -it $(kubectl get pods --namespace cje | grep -FiI fire | cut -f1 -d' ') --namespace=cje -- /bin/bash
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTIyMTgxMSwxMjg0NzA2ODYzLC03Mz
-A1MjE5MjYsMTAwODA0OTMwOCw0MTAyMzU3NDMsNDA1NjM4MzI2
-LDIxNDI0NTE2MDksMTkzODM2MDc4MiwxODkxMjE0NjQ5LC0xNj
-YyMDg4NzcyLC0xNDU4OTA2Mjg1XX0=
+eyJoaXN0b3J5IjpbLTE3NjM2NDI1MTEsMTMwNTIyMTgxMSwxMj
+g0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOCw0MTAyMzU3
+NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2MDc4MiwxOD
+kxMjE0NjQ5LC0xNjYyMDg4NzcyLC0xNDU4OTA2Mjg1XX0=
 -->
