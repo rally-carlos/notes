@@ -34,6 +34,9 @@ println(hudson.util.Secret.fromString("{XXX=}")
 
 # Firedrills
 
+!!!!
+Alert the current Rally-Ops Incident Commander ([https://audaxhealth.pagerduty.com/schedules#P4TWQ2T](https://audaxhealth.pagerduty.com/schedules#P4TWQ2T "Follow link")) that a drill is happening and any relevant alerts can be ignored.
+
 Datadog / Runbooks
 * https://app.datadoghq.com/notebook/126080/-runbook-jenkins-masters-home-directory-disk-monitor
 
@@ -48,7 +51,7 @@ Datadog / Runbooks
 AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDk1ODg2OCwtNzMwNTIxOTI2LDEwMD
+eyJoaXN0b3J5IjpbMTI4NDcwNjg2MywtNzMwNTIxOTI2LDEwMD
 gwNDkzMDgsNDEwMjM1NzQzLDQwNTYzODMyNiwyMTQyNDUxNjA5
 LDE5MzgzNjA3ODIsMTg5MTIxNDY0OSwtMTY2MjA4ODc3MiwtMT
 Q1ODkwNjI4NV19
