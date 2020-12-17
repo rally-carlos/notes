@@ -49,10 +49,13 @@ Datadog / Runbooks
 * 
 ```
 AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
+
+# Find fire drill controller
+kubectl get pods --namespace cje | grep -FiI fire
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDcwNjg2MywtNzMwNTIxOTI2LDEwMD
-gwNDkzMDgsNDEwMjM1NzQzLDQwNTYzODMyNiwyMTQyNDUxNjA5
-LDE5MzgzNjA3ODIsMTg5MTIxNDY0OSwtMTY2MjA4ODc3MiwtMT
-Q1ODkwNjI4NV19
+eyJoaXN0b3J5IjpbMzU2NDY5NjA2LDEyODQ3MDY4NjMsLTczMD
+UyMTkyNiwxMDA4MDQ5MzA4LDQxMDIzNTc0Myw0MDU2MzgzMjYs
+MjE0MjQ1MTYwOSwxOTM4MzYwNzgyLDE4OTEyMTQ2NDksLTE2Nj
+IwODg3NzIsLTE0NTg5MDYyODVdfQ==
 -->
