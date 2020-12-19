@@ -37,15 +37,12 @@ println(hudson.util.Secret.fromString("{XXX=}")
 # Fire Drills
 
 1. Wake up firedrill [Jenkins Master](https://ci.rally-dev.com/cjoc/job/Teams/job/fire-drill/)
-	Can take several minutes 
-2. Alert the current [Rally-Ops Incident Commander](https://audaxhealth.pagerduty.com/schedules#P4TWQ2T)) that a drill is happening and any relevant alerts can be ignored in Slack channel #ops-internal.
+	Can take several minutes, <10min.
+2. Alert the current [Rally-Ops Incident Commander](https://audaxhealth.pagerduty.com/schedules#P4TWQ2T), in Slack channel #ops-internal, that a drill is happening and any relevant alerts can be ignored.
 3. Run build for firedrill
    * [Disk full](https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/)
    * [Max out inodes] NEED LINK
-
-## Datadog
-* [Disk full](https://app.datadoghq.com/notebook/126080/)
-* [Max out inodes](https://app.datadoghq.com/notebook/126235/)
+   * 
 
 ## Fill Disk Runbook
 ```
@@ -70,7 +67,7 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgzMjc4NDQsMTQ3ODA5NjYyNiwxMD
+eyJoaXN0b3J5IjpbLTE3NDQ5ODk4MTIsMTQ3ODA5NjYyNiwxMD
 E5MDkwNzc0LC0yMDMyOTk0MzE0LC0xNzYzNjQyNTExLDEzMDUy
 MjE4MTEsMTI4NDcwNjg2MywtNzMwNTIxOTI2LDEwMDgwNDkzMD
 gsNDEwMjM1NzQzLDQwNTYzODMyNiwyMTQyNDUxNjA5LDE5Mzgz
