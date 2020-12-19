@@ -67,16 +67,16 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 
 # Monitor via Datadog, https://app.datadoghq.com/notebook/126080/
 
-# Acknol
+# Acknowledge PagerDuty alert
 
 # Cleanup
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzU4NzY0NSwxNDc4MDk2NjI2LDEwMT
-kwOTA3NzQsLTIwMzI5OTQzMTQsLTE3NjM2NDI1MTEsMTMwNTIy
-MTgxMSwxMjg0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOC
-w0MTAyMzU3NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2
-MDc4MiwxODkxMjE0NjQ5LC0xNjYyMDg4NzcyLC0xNDU4OTA2Mj
-g1XX0=
+eyJoaXN0b3J5IjpbNDE4MjQzNzQyLDE0NzgwOTY2MjYsMTAxOT
+A5MDc3NCwtMjAzMjk5NDMxNCwtMTc2MzY0MjUxMSwxMzA1MjIx
+ODExLDEyODQ3MDY4NjMsLTczMDUyMTkyNiwxMDA4MDQ5MzA4LD
+QxMDIzNTc0Myw0MDU2MzgzMjYsMjE0MjQ1MTYwOSwxOTM4MzYw
+NzgyLDE4OTEyMTQ2NDksLTE2NjIwODg3NzIsLTE0NTg5MDYyOD
+VdfQ==
 -->
