@@ -4,7 +4,8 @@ terraform plan -lock=false -no-color | tee tfplan.output.txt
 
 # comment out backend
 tf-shim init -lock=false -force-copy
-# terraform state pull | tee terraform.tfstate
+# OR 
+terraform state pull | tee terraform.tfstate
 
 for ITEM in $(grep -E '^ *- ' tfplan.output.txt | grep -v destroy | sed -e 's/^ *- //'); do \
   terraform state mv -lock=false -state=terraform.tfstate ${ITEM} module.cje.${ITEM} ; \
@@ -22,7 +23,7 @@ terraform push -lock=false tf.state
 
 Dont forget to cleanup S3 bucket
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwMjQwNDIsMTQzNzYyODE1LDIwMTM2Mj
-IwNzgsMTcxNzEzMjk1LDczNTYyMjIzNCwtMTAxNTI5Mzg0Niwt
-MTk4NzIzNDE3M119
+eyJoaXN0b3J5IjpbLTE5MjEwMDA3MDMsMTQzNzYyODE1LDIwMT
+M2MjIwNzgsMTcxNzEzMjk1LDczNTYyMjIzNCwtMTAxNTI5Mzg0
+NiwtMTk4NzIzNDE3M119
 -->
