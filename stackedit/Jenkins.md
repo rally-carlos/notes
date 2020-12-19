@@ -40,7 +40,7 @@ Alert the current Rally-Ops Incident Commander ([https://audaxhealth.pagerduty.c
 1. Wake up firedrill [Jenkins Master](https://ci.rally-dev.com/cjoc/job/Teams/job/fire-drill/)
 2. Run build for firedrill
    * [Disk full](https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/)
-   * [Max out inodes]
+   * [Max out inodes] NEED LINK
 
 ## Datadog / Runbooks
 * [Disk full](https://app.datadoghq.com/notebook/126080/)
@@ -60,7 +60,7 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDE1NjQwMSwxNDc4MDk2NjI2LDEwMT
+eyJoaXN0b3J5IjpbMTg5MzE3ODA5MSwxNDc4MDk2NjI2LDEwMT
 kwOTA3NzQsLTIwMzI5OTQzMTQsLTE3NjM2NDI1MTEsMTMwNTIy
 MTgxMSwxMjg0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOC
 w0MTAyMzU3NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2
