@@ -54,7 +54,8 @@ aws --profile rally-dev --region us-east-1 eks update-kubeconfig --name eks-cje-
 # Find fire drill controller to monitor restore
 kubectl get pods --namespace cje | grep -FiI fire
 
-# Once controller is online 
+# TODO: Find API call
+# Once controller is online, run build job https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/
 
 # Exec into controller
 kubectl exec -it $(kubectl get pods --namespace cje | grep -FiI fire | cut -f1 -d' ') --namespace=cje -- /bin/bash
@@ -66,7 +67,7 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjE5NDMzMCwxNDc4MDk2NjI2LDEwMT
+eyJoaXN0b3J5IjpbLTIyNTU4MzIyMiwxNDc4MDk2NjI2LDEwMT
 kwOTA3NzQsLTIwMzI5OTQzMTQsLTE3NjM2NDI1MTEsMTMwNTIy
 MTgxMSwxMjg0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOC
 w0MTAyMzU3NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2
