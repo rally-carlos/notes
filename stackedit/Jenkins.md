@@ -45,7 +45,7 @@ Datadog / Runbooks
    * https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/
 
 ## Datadog / Runbooks
-* https://app.datadoghq.com/notebook/126235/-runbook-jenkins-masters-home-directory-inode-monitor
+* [Disk full](https://app.datadoghq.com/notebook/126080/)
 * [Max out inodes](https://app.datadoghq.com/notebook/126235/)
 ```
 AWS_PROFILE=rally-dev aws eks update-kubeconfig --region us-east-1 --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
@@ -62,7 +62,7 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTE2NjQwMSwxMDE5MDkwNzc0LC0yMD
+eyJoaXN0b3J5IjpbMTYzNTYxNzYwOSwxMDE5MDkwNzc0LC0yMD
 MyOTk0MzE0LC0xNzYzNjQyNTExLDEzMDUyMjE4MTEsMTI4NDcw
 Njg2MywtNzMwNTIxOTI2LDEwMDgwNDkzMDgsNDEwMjM1NzQzLD
 QwNTYzODMyNiwyMTQyNDUxNjA5LDE5MzgzNjA3ODIsMTg5MTIx
