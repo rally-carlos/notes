@@ -37,12 +37,10 @@ println(hudson.util.Secret.fromString("{XXX=}")
 !!!!
 Alert the current Rally-Ops Incident Commander ([https://audaxhealth.pagerduty.com/schedules#P4TWQ2T](https://audaxhealth.pagerduty.com/schedules#P4TWQ2T "Follow link")) that a drill is happening and any relevant alerts can be ignored.
 
-Datadog / Runbooks
-* https://app.datadoghq.com/notebook/126080/-runbook-jenkins-masters-home-directory-disk-monitor
-
 1. Wake up firedrill [Jenkins Master](https://ci.rally-dev.com/cjoc/job/Teams/job/fire-drill/)
 2. Run build for firedrill
-   * https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/
+   * [Disk full](https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/)
+   * [Max out inodes]
 
 ## Datadog / Runbooks
 * [Disk full](https://app.datadoghq.com/notebook/126080/)
@@ -62,7 +60,7 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTYxNzYwOSwxMDE5MDkwNzc0LC0yMD
+eyJoaXN0b3J5IjpbMTQ3ODA5NjYyNiwxMDE5MDkwNzc0LC0yMD
 MyOTk0MzE0LC0xNzYzNjQyNTExLDEzMDUyMjE4MTEsMTI4NDcw
 Njg2MywtNzMwNTIxOTI2LDEwMDgwNDkzMDgsNDEwMjM1NzQzLD
 QwNTYzODMyNiwyMTQyNDUxNjA5LDE5MzgzNjA3ODIsMTg5MTIx
