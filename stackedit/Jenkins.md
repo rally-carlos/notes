@@ -42,7 +42,9 @@ println(hudson.util.Secret.fromString("{XXX=}")
 3. Run build for firedrill
    * [Disk full](https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/)
    * [Max out inodes] NEED LINK
-   * 
+4. Monitor via Datadog
+   * [Disk full](https://app.datadoghq.com/notebook/126080/)
+   * [Max out inodes](https://app.datadoghq.com/notebook/126235/)
 
 ## Fill Disk Runbook
 ```
@@ -63,14 +65,18 @@ kubectl exec -it $(kubectl get pods --namespace cje | grep -FiI fire | cut -f1 -
 # See size of builds for "Fill Disk"
 du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 
+# Monitor via Datadog, https://app.datadoghq.com/notebook/126080/
+
+# Acknol
+
 # Cleanup
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ5ODk4MTIsMTQ3ODA5NjYyNiwxMD
-E5MDkwNzc0LC0yMDMyOTk0MzE0LC0xNzYzNjQyNTExLDEzMDUy
-MjE4MTEsMTI4NDcwNjg2MywtNzMwNTIxOTI2LDEwMDgwNDkzMD
-gsNDEwMjM1NzQzLDQwNTYzODMyNiwyMTQyNDUxNjA5LDE5Mzgz
-NjA3ODIsMTg5MTIxNDY0OSwtMTY2MjA4ODc3MiwtMTQ1ODkwNj
-I4NV19
+eyJoaXN0b3J5IjpbLTQ0NzU4NzY0NSwxNDc4MDk2NjI2LDEwMT
+kwOTA3NzQsLTIwMzI5OTQzMTQsLTE3NjM2NDI1MTEsMTMwNTIy
+MTgxMSwxMjg0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOC
+w0MTAyMzU3NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2
+MDc4MiwxODkxMjE0NjQ5LC0xNjYyMDg4NzcyLC0xNDU4OTA2Mj
+g1XX0=
 -->
