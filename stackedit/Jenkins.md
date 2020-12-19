@@ -42,9 +42,11 @@ Alert the current Rally-Ops Incident Commander ([https://audaxhealth.pagerduty.c
    * [Disk full](https://ci.rally-dev.com/teams-fire-drill/job/fire-drill/job/fill_disk/)
    * [Max out inodes] NEED LINK
 
-## Datadog / Runbooks
+## Datadog
 * [Disk full](https://app.datadoghq.com/notebook/126080/)
 * [Max out inodes](https://app.datadoghq.com/notebook/126235/)
+
+## Fill Disk Runbook
 ```
 # Set context
 aws --profile rally-dev --region us-east-1 eks update-kubeconfig --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
@@ -52,20 +54,22 @@ aws --profile rally-dev --region us-east-1 eks update-kubeconfig --name eks-cje-
 # Find fire drill controller to monitor restore
 kubectl get pods --namespace cje | grep -FiI fire
 
+# Once controller is online 
+
 # Exec into controller
 kubectl exec -it $(kubectl get pods --namespace cje | grep -FiI fire | cut -f1 -d' ') --namespace=cje -- /bin/bash
 
 # See size of builds for "Fill Disk"
 du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 
-# Clean
+# Cleanup
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA0NDE2MzQsMTQ3ODA5NjYyNiwxMD
-E5MDkwNzc0LC0yMDMyOTk0MzE0LC0xNzYzNjQyNTExLDEzMDUy
-MjE4MTEsMTI4NDcwNjg2MywtNzMwNTIxOTI2LDEwMDgwNDkzMD
-gsNDEwMjM1NzQzLDQwNTYzODMyNiwyMTQyNDUxNjA5LDE5Mzgz
-NjA3ODIsMTg5MTIxNDY0OSwtMTY2MjA4ODc3MiwtMTQ1ODkwNj
-I4NV19
+eyJoaXN0b3J5IjpbLTQzNjE5NDMzMCwxNDc4MDk2NjI2LDEwMT
+kwOTA3NzQsLTIwMzI5OTQzMTQsLTE3NjM2NDI1MTEsMTMwNTIy
+MTgxMSwxMjg0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOC
+w0MTAyMzU3NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2
+MDc4MiwxODkxMjE0NjQ5LC0xNjYyMDg4NzcyLC0xNDU4OTA2Mj
+g1XX0=
 -->
