@@ -1,8 +1,8 @@
-Cloudbees Cloud
+# Jenkins Infra
 * [Live/Prod](https://ci.rally-dev.com/cjoc/)
 * [Staging](https://ci-staging.werally.in/cjoc/)
 * [Legacy Prod](https://jenkins.werally.in/)
-* [Legacy Non-Prod](https://rally-jenkins.werally.in/) [Depricated]
+* [Legacy Non-Prod](https://rally-jenkins.werally.in/) [Deprecated]
 
 # Retrieve Secrets from Jenkins
 
@@ -34,9 +34,8 @@ Source:
 println(hudson.util.Secret.fromString("{XXX=}")
 ```
 
-# Firedrills
+# Fire Drills
 
-!!!!
 Alert the current Rally-Ops Incident Commander ([https://audaxhealth.pagerduty.com/schedules#P4TWQ2T](https://audaxhealth.pagerduty.com/schedules#P4TWQ2T "Follow link")) that a drill is happening and any relevant alerts can be ignored.–
 
 1. Wake up firedrill [Jenkins Master](https://ci.rally-dev.com/cjoc/job/Teams/job/fire-drill/)
@@ -50,6 +49,8 @@ Alert the current Rally-Ops Incident Commander ([https://audaxhealth.pagerduty.c
 
 ## Fill Disk Runbook
 ```
+# Alert incident commander!
+
 # Set context
 aws --profile rally-dev --region us-east-1 eks update-kubeconfig --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
 
@@ -69,10 +70,10 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzYxMzY2LDE0NzgwOTY2MjYsMTAxOT
-A5MDc3NCwtMjAzMjk5NDMxNCwtMTc2MzY0MjUxMSwxMzA1MjIx
-ODExLDEyODQ3MDY4NjMsLTczMDUyMTkyNiwxMDA4MDQ5MzA4LD
-QxMDIzNTc0Myw0MDU2MzgzMjYsMjE0MjQ1MTYwOSwxOTM4MzYw
-NzgyLDE4OTEyMTQ2NDksLTE2NjIwODg3NzIsLTE0NTg5MDYyOD
-VdfQ==
+eyJoaXN0b3J5IjpbLTIzOTY3MDAzOCwxNDc4MDk2NjI2LDEwMT
+kwOTA3NzQsLTIwMzI5OTQzMTQsLTE3NjM2NDI1MTEsMTMwNTIy
+MTgxMSwxMjg0NzA2ODYzLC03MzA1MjE5MjYsMTAwODA0OTMwOC
+w0MTAyMzU3NDMsNDA1NjM4MzI2LDIxNDI0NTE2MDksMTkzODM2
+MDc4MiwxODkxMjE0NjQ5LC0xNjYyMDg4NzcyLC0xNDU4OTA2Mj
+g1XX0=
 -->
