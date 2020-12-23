@@ -4,6 +4,7 @@
 * [Legacy Prod](https://jenkins.werally.in/)
 * [Legacy Non-Prod](https://rally-jenkins.werally.in/) [Deprecated]
 
+* [# Configuration as Code (CasC)](https://github.com/AudaxHealthInc/cje-jenkins-configs)
 
 # Retrieve Secrets from Jenkins
 
@@ -74,10 +75,10 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU2NDU1MjMsLTE4OTI2MDIwODUsND
-E4MjQzNzQyLDE0NzgwOTY2MjYsMTAxOTA5MDc3NCwtMjAzMjk5
-NDMxNCwtMTc2MzY0MjUxMSwxMzA1MjIxODExLDEyODQ3MDY4Nj
-MsLTczMDUyMTkyNiwxMDA4MDQ5MzA4LDQxMDIzNTc0Myw0MDU2
-MzgzMjYsMjE0MjQ1MTYwOSwxOTM4MzYwNzgyLDE4OTEyMTQ2ND
-ksLTE2NjIwODg3NzIsLTE0NTg5MDYyODVdfQ==
+eyJoaXN0b3J5IjpbLTIzMjA1MDU0NiwtMTg5MjYwMjA4NSw0MT
+gyNDM3NDIsMTQ3ODA5NjYyNiwxMDE5MDkwNzc0LC0yMDMyOTk0
+MzE0LC0xNzYzNjQyNTExLDEzMDUyMjE4MTEsMTI4NDcwNjg2My
+wtNzMwNTIxOTI2LDEwMDgwNDkzMDgsNDEwMjM1NzQzLDQwNTYz
+ODMyNiwyMTQyNDUxNjA5LDE5MzgzNjA3ODIsMTg5MTIxNDY0OS
+wtMTY2MjA4ODc3MiwtMTQ1ODkwNjI4NV19
 -->
