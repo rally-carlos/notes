@@ -4,6 +4,7 @@
 * [Legacy Prod](https://jenkins.werally.in/)
 * [Legacy Non-Prod](https://rally-jenkins.werally.in/) [Deprecated]
 
+
 # Retrieve Secrets from Jenkins
 
 ## Get Decryption Key
@@ -73,10 +74,10 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI2MDIwODUsNDE4MjQzNzQyLDE0Nz
-gwOTY2MjYsMTAxOTA5MDc3NCwtMjAzMjk5NDMxNCwtMTc2MzY0
-MjUxMSwxMzA1MjIxODExLDEyODQ3MDY4NjMsLTczMDUyMTkyNi
-wxMDA4MDQ5MzA4LDQxMDIzNTc0Myw0MDU2MzgzMjYsMjE0MjQ1
-MTYwOSwxOTM4MzYwNzgyLDE4OTEyMTQ2NDksLTE2NjIwODg3Nz
-IsLTE0NTg5MDYyODVdfQ==
+eyJoaXN0b3J5IjpbLTEzMTU2NDU1MjMsLTE4OTI2MDIwODUsND
+E4MjQzNzQyLDE0NzgwOTY2MjYsMTAxOTA5MDc3NCwtMjAzMjk5
+NDMxNCwtMTc2MzY0MjUxMSwxMzA1MjIxODExLDEyODQ3MDY4Nj
+MsLTczMDUyMTkyNiwxMDA4MDQ5MzA4LDQxMDIzNTc0Myw0MDU2
+MzgzMjYsMjE0MjQ1MTYwOSwxOTM4MzYwNzgyLDE4OTEyMTQ2ND
+ksLTE2NjIwODg3NzIsLTE0NTg5MDYyODVdfQ==
 -->
