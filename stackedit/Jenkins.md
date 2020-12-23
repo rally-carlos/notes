@@ -5,7 +5,7 @@
 * [Legacy Non-Prod](https://rally-jenkins.werally.in/) [Deprecated]
 
 Repos:
-* [Configuration as Code (CasC)](https://github.com/AudaxHealthInc/cje-jenkins-configs)
+* [jenkins-infra](https://github.com/AudaxHealthInc/jenkins-infra/)
 * [cje-k8s-configs](https://github.com/AudaxHealthInc/cje-k8s-configs) - Kubernetes configuration for the Cloudbees Core Jenkins cluster
 
 # Retrieve Secrets from Jenkins
@@ -77,10 +77,10 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDY0MTIwMSwtMTg5MjYwMjA4NSw0MT
-gyNDM3NDIsMTQ3ODA5NjYyNiwxMDE5MDkwNzc0LC0yMDMyOTk0
-MzE0LC0xNzYzNjQyNTExLDEzMDUyMjE4MTEsMTI4NDcwNjg2My
-wtNzMwNTIxOTI2LDEwMDgwNDkzMDgsNDEwMjM1NzQzLDQwNTYz
-ODMyNiwyMTQyNDUxNjA5LDE5MzgzNjA3ODIsMTg5MTIxNDY0OS
-wtMTY2MjA4ODc3MiwtMTQ1ODkwNjI4NV19
+eyJoaXN0b3J5IjpbNzU0MTg2NTcsLTE4OTI2MDIwODUsNDE4Mj
+QzNzQyLDE0NzgwOTY2MjYsMTAxOTA5MDc3NCwtMjAzMjk5NDMx
+NCwtMTc2MzY0MjUxMSwxMzA1MjIxODExLDEyODQ3MDY4NjMsLT
+czMDUyMTkyNiwxMDA4MDQ5MzA4LDQxMDIzNTc0Myw0MDU2Mzgz
+MjYsMjE0MjQ1MTYwOSwxOTM4MzYwNzgyLDE4OTEyMTQ2NDksLT
+E2NjIwODg3NzIsLTE0NTg5MDYyODVdfQ==
 -->
