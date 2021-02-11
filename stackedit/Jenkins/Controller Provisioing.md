@@ -13,7 +13,11 @@ This is notes on the project
 ## Other
 * https://opensource.com/article/20/4/jcasc-jenkins
 
+
+
+* https://ci-staging.werally.in/cjoc/primaryView/api/json?pretty=true&tree=jobs[name,url]
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgzOTQ2OTksOTU1MTI4NjY0LDE1Mj
-E5ODgyMTksNzgzOTQzNTAxXX0=
+eyJoaXN0b3J5IjpbMjAyMDg4NzIyMCwtMTQzODM5NDY5OSw5NT
+UxMjg2NjQsMTUyMTk4ODIxOSw3ODM5NDM1MDFdfQ==
 -->
