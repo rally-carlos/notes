@@ -4,7 +4,7 @@
 - https://support.cloudbees.com/hc/en-us/articles/218889337-How-to-build-a-job-using-the-REST-API-and-cURL-
 &nbsp;
 - https://support.cloudbees.com/hc/en-us/articles/360030526992-How-to-manage-Credentials-via-the-REST-API
-- https://support.cloudbees.com/hc/en-us/articles/360035634631-How-to-create-a-Kubernetes-Team-Master-programmatically#createremotelyusingconfigfiles (sc
+- https://support.cloudbees.com/hc/en-us/articles/360035634631-How-to-create-a-Kubernetes-Team-Master-programmatically#createremotelyusingconfigfiles (scroll down)
 
 ## Useful Endpoints
  - list-masters
@@ -20,7 +20,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU0ODg1NTIsLTIwNDU1MDMzNjksLT
+eyJoaXN0b3J5IjpbLTIwODYzOTE2MjgsLTIwNDU1MDMzNjksLT
 EzMjk0NjA5NjgsOTYxMDI2OTU3LDMwNDM5MDA1LDYzNzQ5Njg3
 NSw3MzA5OTgxMTZdfQ==
 -->
