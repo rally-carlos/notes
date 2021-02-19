@@ -2,6 +2,8 @@
 - https://ci-staging.werally.in/cjoc/cli/
 - https://www.jenkins.io/doc/book/using/remote-access-api/
 - https://support.cloudbees.com/hc/en-us/articles/218889337-How-to-build-a-job-using-the-REST-API-and-cURL-
+&nbsp;
+https://support.cloudbees.com/hc/en-us/articles/360030526992-How-to-manage-Credentials-via-the-REST-API
 
 ## Useful Endpoints
  - list-masters
@@ -17,6 +19,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk0NjA5NjgsOTYxMDI2OTU3LDMwND
-M5MDA1LDYzNzQ5Njg3NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDU1MDMzNjksLTEzMjk0NjA5NjgsOT
+YxMDI2OTU3LDMwNDM5MDA1LDYzNzQ5Njg3NSw3MzA5OTgxMTZd
+fQ==
 -->
