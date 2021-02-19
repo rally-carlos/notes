@@ -5,6 +5,7 @@
 &nbsp;
 - https://support.cloudbees.com/hc/en-us/articles/360030526992-How-to-manage-Credentials-via-the-REST-API
 - https://support.cloudbees.com/hc/en-us/articles/360035634631-How-to-create-a-Kubernetes-Team-Master-programmatically#createremotelyusingconfigfiles (scroll down)
+- https://support.cloudbees.com/hc/en-us/articles/360035632851-How-to-create-a-Kubernetes-Managed-Master-programmatically (non-blueocean version, looks like a PITA)
 
 ## Useful Endpoints
  - list-masters
@@ -20,7 +21,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYzOTE2MjgsLTIwNDU1MDMzNjksLT
-EzMjk0NjA5NjgsOTYxMDI2OTU3LDMwNDM5MDA1LDYzNzQ5Njg3
-NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQzMDQ3NjcwNCwtMjA4NjM5MTYyOCwtMj
+A0NTUwMzM2OSwtMTMyOTQ2MDk2OCw5NjEwMjY5NTcsMzA0Mzkw
+MDUsNjM3NDk2ODc1LDczMDk5ODExNl19
 -->
