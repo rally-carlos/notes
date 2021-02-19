@@ -1,7 +1,11 @@
+ - list-masters
+   ```
+   ```
+ - teams
+   ```
+   https://ci-staging.werally.in/cjoc/job/Teams/api/json?pretty=true&depth=2&tree=jobs[name,displayName,fullName,online,approved,url,endpoint]
+   ```
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTgyMjMxOTYwNiw3MzA5OTgxMTZdfQ==
 -->
