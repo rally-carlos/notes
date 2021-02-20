@@ -18,7 +18,9 @@
 * What is our licening and support cost to CloudBees?
 
 ## To Jenkins advocates
-* How much time is spent 
+* How much time is spent interacting with the Jenkins build system?
+* How much of that time is spent troubleshooting the build system (vs the actual build)?
+* Overal how happy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE0NDYyNDddfQ==
+eyJoaXN0b3J5IjpbLTE4OTQzMzMxNV19
 -->
