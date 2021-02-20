@@ -14,7 +14,7 @@
 * 
 
 # Questions
-* What security, inteletcural property, or personal ident
+* Are there security, inteletcural property, or personal identifying information concerns or policies in reguards to using SasS CI build tools, such as GitHub Actions?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5NTc4MDMyXX0=
+eyJoaXN0b3J5IjpbMTkyNzA2NTM5Ml19
 -->
