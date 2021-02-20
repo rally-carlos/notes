@@ -10,8 +10,11 @@
 * GitHub Actions provides a homoginized platform.
 
 ### Costs
-* On-Prem GitHub Actions have lower infrastructure requirements comp.
+* On-Prem GitHub Actions have lower infrastructure requirements compared to Jenkins.
 * 
+
+# Questions
+* What security, inteletcural property, or personal ident
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NDE5NTM5XX0=
+eyJoaXN0b3J5IjpbNzE5NTc4MDMyXX0=
 -->
