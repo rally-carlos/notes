@@ -20,7 +20,7 @@
 ## To Jenkins advocates
 * How much time is spent interacting with the Jenkins build system?
 * How much of that time is spent troubleshooting the build system (vs the actual build)?
-* Overal how happy
+* How much does the Jenkins build system help
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzMzMxNV19
+eyJoaXN0b3J5IjpbLTU2Njc2MDAyN119
 -->
