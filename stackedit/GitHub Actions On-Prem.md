@@ -15,6 +15,10 @@
 
 # Questions
 * Are there security, inteletcural property, or personal identifying information concerns or policies in reguards to using SasS CI build tools, such as GitHub Actions?
+* What is our licening and support cost to CloudBees?
+
+## To Jenkins advocates
+* How much time is spent 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTk0ODc3Ml19
+eyJoaXN0b3J5IjpbLTEwMzE0NDYyNDddfQ==
 -->
