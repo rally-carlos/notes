@@ -1,7 +1,10 @@
 
 
+## Problem
+* Customizable Jenkins controllers for each team is not scalable or sustable from a maintance and support perspective.
 
-Problem
+## Why
+* GitHub Actions 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NTA5NjYzXX0=
+eyJoaXN0b3J5IjpbLTE2NjgzNDMyMDJdfQ==
 -->
