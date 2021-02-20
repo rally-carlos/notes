@@ -8,6 +8,7 @@
 
 ## Why
 * GitHub Actions provides a homoginized platform.
+  * Lower engineering resources required to support
 
 ### Costs
 * Lower infrastructure requirements for On-Prem GitHub Actions when compared to Jenkins.
@@ -22,5 +23,5 @@
 * How much of that time is spent troubleshooting the build system (vs the actual build)?
 * How much does the Jenkins build improve the effientcy of your team? (1-5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MTIyNDkxXX0=
+eyJoaXN0b3J5IjpbNjk5MjQ5MTQ5LDkzNDEyMjQ5MV19
 -->
