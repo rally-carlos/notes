@@ -10,11 +10,11 @@
 * GitHub Actions provides a homoginized platform.
 
 ### Costs
-* On-Prem GitHub Actions have lower infrastructure requirements compared to Jenkins.
-* On-Prem GitHub Actions do not require any additional licensing costs.
+* Lower infrastructure requirements for On-Prem GitHub Actions when compared to Jenkins.
+* No additional licensing costs for On-Prem GitHub Actions.
 
 # Questions
 * Are there security, inteletcural property, or personal identifying information concerns or policies in reguards to using SasS CI build tools, such as GitHub Actions?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjExOTQwOThdfQ==
+eyJoaXN0b3J5IjpbMTc5MTk0ODc3Ml19
 -->
