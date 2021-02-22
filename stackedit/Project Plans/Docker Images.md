@@ -2,7 +2,7 @@
 # Docker Image Managment
 
 ## Problem
-* Time: Tiger ~ 1-2 days of engineer time
+* Time: Tiger ~ 1-2 days of engineer time (including context switch for all the PRs of each engineer)
 
 ## Benifit / Value
 * Improved Security: Automaticly get new version (i.e. minor or patch) of dependant images.
@@ -10,5 +10,5 @@
 
 ## Risk
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzYxNjk3NiwtMTEzNzc0NDc0NV19
+eyJoaXN0b3J5IjpbMTU1NzI0OTE5MiwtMTEzNzc0NDc0NV19
 -->
