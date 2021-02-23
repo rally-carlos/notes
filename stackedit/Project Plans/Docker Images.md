@@ -2,7 +2,7 @@
 # Docker Image Managment
 
 ## Problem
-* Time: Tiger ~ 1-2 days of engineer time (including context switch for all the PRs of each engineer)
+* Time: Tiger ~ 1-2 days a week of engineer time (including context switch for all the PRs of each engineer)
 * Downsteam images do not get updated
 
 ## Benifit / Value
@@ -12,6 +12,6 @@
 ## Risk
 `null`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjEyMDc3OTIsLTExMzc3NDQ3NDVdfQ
-==
+eyJoaXN0b3J5IjpbLTE2Mzk5MjI4OTMsLTEyNjEyMDc3OTIsLT
+ExMzc3NDQ3NDVdfQ==
 -->
