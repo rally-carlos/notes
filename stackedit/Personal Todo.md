@@ -1,12 +1,11 @@
 
  * Learn Vault
  * Learn Policy Agent
- * Learn Rego
- * Lean k8s
- d
- * List item
+	* Learn Rego
+ * Learn k8s
+	 * Collect certs
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5ODMxODg5XX0=
+eyJoaXN0b3J5IjpbMTEzMTYyMTI3OV19
 -->
