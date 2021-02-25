@@ -77,6 +77,9 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 # Cleanup
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
+
+# Check if we do this
+* https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDUyNTY5M119
+eyJoaXN0b3J5IjpbMTMyMTQ5OTg3Ml19
 -->
