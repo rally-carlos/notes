@@ -1,7 +1,9 @@
 Address "Controller out of spaces" issues in #jenkins-smes
 
 Vission
-* Enable teams to better self serv
+* Enable teams to better self serve their Jenkins controller
+* Encourge team to optimize/improve builds (via "self serve")
+* Give Jenkins platform owners
 
 Pass 1
 * script to query and display builds sorted by size, with links to build
@@ -11,5 +13,5 @@ Pass 1
 Phase 2
 * can choose to delete build from cli.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODkzMDkzNF19
+eyJoaXN0b3J5IjpbMTQ3MzI5NTU4XX0=
 -->
