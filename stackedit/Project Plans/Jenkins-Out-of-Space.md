@@ -1,11 +1,15 @@
 Address "Controller out of spaces" issues in #jenkins-smes
 
 Vission
-* Enable better 
+* Enable teams to better self serv
 
-* script to query and display builds sorted by size
+Pass 1
+* script to query and display builds sorted by size, with links to build
 	Maybe crude, but better than nothing and great for first pass
 * space alert (slack/email ping) to owner of team controller to address when getting low, (1 GB ? )
+
+Phase 2
+* can choose to delete build from cli.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTUzMjIyM119
+eyJoaXN0b3J5IjpbLTk3ODkzMDkzNF19
 -->
