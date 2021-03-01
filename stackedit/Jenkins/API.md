@@ -7,7 +7,8 @@
 - https://support.cloudbees.com/hc/en-us/articles/360035634631-How-to-create-a-Kubernetes-Team-Master-programmatically#createremotelyusingconfigfiles (scroll down)
 - https://support.cloudbees.com/hc/en-us/articles/360035632851-How-to-create-a-Kubernetes-Managed-Master-programmatically (non-blueocean version, looks like a PITA)
 )
-* [https://www.jenkins.io/doc/book/managing/cli/](CLI over SSH)
+&nbsp;
+* [CLI over SSH](https://www.jenkins.io/doc/book/managing/cli/)
 
 ## Useful Endpoints
  - list-masters
@@ -23,7 +24,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYyNjMwMTQsLTQzMDQ3NjcwNCwtMj
+eyJoaXN0b3J5IjpbLTE5MDM3NzQ1NTgsLTQzMDQ3NjcwNCwtMj
 A4NjM5MTYyOCwtMjA0NTUwMzM2OSwtMTMyOTQ2MDk2OCw5NjEw
 MjY5NTcsMzA0MzkwMDUsNjM3NDk2ODc1LDczMDk5ODExNl19
 -->
