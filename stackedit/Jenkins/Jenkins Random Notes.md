@@ -11,8 +11,14 @@ Repos:
 
 # Connect to EKS Cluster
 
-```sh
+ - List item
 
+List clusters
+```
+aws --profile rally-dev --region us-east-1 eks list-clusters --output text --query "clusters[?contains(@, 'cje')]"
+```
+Update `~/.kube/config`
+```sh
 aws --profile rally-dev --region us-east-1 eks update-kubeconfig --role-arn arn:aws:iam::144137586169:role/k8s-ops-access --name eks-staging-cje-k8s # eks-cje-k8s
 ```
 
@@ -88,5 +94,6 @@ rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTEzMjczLDEzMjE0OTk4NzJdfQ==
+eyJoaXN0b3J5IjpbLTMyNzc0MTU5MSwxMTc1MTMyNzMsMTMyMT
+Q5OTg3Ml19
 -->
