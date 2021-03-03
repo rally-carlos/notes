@@ -12,6 +12,11 @@ Pass 1
 
 Phase 2
 * can choose to delete build from cli.
+
+## Notes
+* https://gist.github.com/mubbashir/484903fda934aeea9f30#file-remove-dir-in-workspace-groovy
+* https://stackoverflow.com/questions/46766294/get-size-of-workspacedirectories-from-jenkinsnodes-via-script
+* https://stackoverflow.com/questions/7994379/free-space-in-jenkins-deleting-builds-directory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Nzc1NDA1XX0=
+eyJoaXN0b3J5IjpbLTc3MjAyOTg5MywxNDQ3NzU0MDVdfQ==
 -->
