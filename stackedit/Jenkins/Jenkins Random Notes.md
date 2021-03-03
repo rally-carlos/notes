@@ -9,6 +9,11 @@ Repos:
 * [cje-k8s-configs](https://github.com/AudaxHealthInc/cje-k8s-configs) - Kubernetes configuration for the Cloudbees Core Jenkins cluster
 * [Configuration as Code (CasC)](https://github.com/AudaxHealthInc/cje-jenkins-configs)
 
+# Connect to EKS Cluster
+```sh
+aws --profile rally-dev --region us-east-1 eks update-kubeconfig --name eks-cje-k8s --role-arn arn:aws:iam::144137586169:role/k8s-ops-access
+```
+
 # Retrieve Secrets from Jenkins
 
 ## Get Decryption Key
@@ -81,5 +86,5 @@ rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTQ5OTg3Ml19
+eyJoaXN0b3J5IjpbNTY3MzAyNDM1LDEzMjE0OTk4NzJdfQ==
 -->
