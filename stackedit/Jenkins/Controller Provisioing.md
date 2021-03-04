@@ -19,10 +19,11 @@ This is notes on the project
 
 
 ## Repos
-* [](https://github.com/jenkinsci/helm-charts)
+* [Jenkins Community Kubernetes Helm Charts](https://github.com/jenkinsci/helm-charts)
+* [CloudBees examples repository](https://github.com/cloudbees/cloudbees-examples)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ3OTU5NTQ1LDIwMjA4ODcyMjAsLTE0Mz
-gzOTQ2OTksOTU1MTI4NjY0LDE1MjE5ODgyMTksNzgzOTQzNTAx
-XX0=
+eyJoaXN0b3J5IjpbLTIxMTMxOTQ4OTQsMjAyMDg4NzIyMCwtMT
+QzODM5NDY5OSw5NTUxMjg2NjQsMTUyMTk4ODIxOSw3ODM5NDM1
+MDFdfQ==
 -->
