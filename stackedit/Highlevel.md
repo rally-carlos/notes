@@ -1,4 +1,4 @@
-# 
+# Balanced Scorecard
 
  - [Technology Balanced Scorecard: 2021 Themes and Objectives](https://wiki.audaxhealth.com/x/oA0OBg)
 	 - [BSC Metrics](https://wiki.audaxhealth.com/x/IlgfBw)
@@ -15,6 +15,6 @@
 * [RTS Town Hall - March 2021](https://docs.google.com/presentation/d/10fRwbL1ZmEBjE3I9qthwHyK12ygG7EEd1fuuKw1ZQIQ/edit?usp=sharing)
 * https://wiki.audaxhealth.com/display/ENG/RTS+Videos+Channel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODMzOTk5OSwtOTQ0NDIwMjIyLDMyMj
-cxNjkwOSw5ODU4NjA0MjNdfQ==
+eyJoaXN0b3J5IjpbMjAyNTUxNTg2MywtNTM4MzM5OTk5LC05ND
+Q0MjAyMjIsMzIyNzE2OTA5LDk4NTg2MDQyM119
 -->
