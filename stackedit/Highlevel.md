@@ -17,7 +17,7 @@
 	 - 	[RTS Town Hall - March 2021](https://docs.google.com/presentation/d/10fRwbL1ZmEBjE3I9qthwHyK12ygG7EEd1fuuKw1ZQIQ/edit?usp=sharing) (slides)
 	 - RTS Town Hall - Jan 2021 [Video](https://drive.google.com/file/d/1h973URkbKM-SjWUXH27Uvm3OSx-RXlEy/view?usp=sharing) [Slides](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit?usp=sharing)
 
-# Technology Capability Plan
+## [Technology Capability Plan](https://wiki.audaxhealth.com/x/q1YnBg)
 
  - [1Q21 Technology Capability Plan](https://docs.google.com/document/d/1X3mbn9aZQ0w6XU6dkIVTQpXjQ0N7o1Ri9YdOKC2Qsls/edit?usp=sharing)
 
@@ -27,7 +27,8 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzA3MzgxMiwtNjU1MzA2OTUsLTU5MT
-Y2MjY2LDE3Njg0OTExMzAsMjAyNTUxNTg2MywtNTM4MzM5OTk5
-LC05NDQ0MjAyMjIsMzIyNzE2OTA5LDk4NTg2MDQyM119
+eyJoaXN0b3J5IjpbLTE3Mjk4NjUxMDcsMTI0MzA3MzgxMiwtNj
+U1MzA2OTUsLTU5MTY2MjY2LDE3Njg0OTExMzAsMjAyNTUxNTg2
+MywtNTM4MzM5OTk5LC05NDQ0MjAyMjIsMzIyNzE2OTA5LDk4NT
+g2MDQyM119
 -->
