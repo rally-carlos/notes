@@ -19,6 +19,8 @@
 
 ## [Technology Capability Plan](https://wiki.audaxhealth.com/x/q1YnBg)
 
+[How the TCP is created](https://wiki.audaxhealth.com/x/bdDKBg)
+
  - [1Q21 Technology Capability Plan](https://docs.google.com/document/d/1X3mbn9aZQ0w6XU6dkIVTQpXjQ0N7o1Ri9YdOKC2Qsls/edit?usp=sharing)
 
 # Ops
@@ -27,8 +29,8 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk4NjUxMDcsMTI0MzA3MzgxMiwtNj
-U1MzA2OTUsLTU5MTY2MjY2LDE3Njg0OTExMzAsMjAyNTUxNTg2
-MywtNTM4MzM5OTk5LC05NDQ0MjAyMjIsMzIyNzE2OTA5LDk4NT
-g2MDQyM119
+eyJoaXN0b3J5IjpbMTUxMDIwNjE1MywxMjQzMDczODEyLC02NT
+UzMDY5NSwtNTkxNjYyNjYsMTc2ODQ5MTEzMCwyMDI1NTE1ODYz
+LC01MzgzMzk5OTksLTk0NDQyMDIyMiwzMjI3MTY5MDksOTg1OD
+YwNDIzXX0=
 -->
