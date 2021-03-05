@@ -1,5 +1,7 @@
 # Balanced Scorecard
 
+ - [Engineering Balanced Scorecard - All Hands](https://docs.google.com/presentation/d/1-pIkwrFE3Yx1lnyFT1p6hrSf1gCkicGPb48nO_3LcEI/edit?usp=sharing) (slides)
+
 ## [Technology Balanced Scorecard: 2021 Themes and Objectives](https://wiki.audaxhealth.com/x/oA0OBg)
  - [BSC Metrics](https://wiki.audaxhealth.com/x/IlgfBw)
 	 - [2021 Technology Balanced Scorecard](https://docs.google.com/spreadsheets/d/1V8siruMlwb_f9aT9JDUIr5MwvvASoCLTmkxHN-28K7o/edit?usp=sharing) (spreadsheet)
@@ -10,7 +12,6 @@
 
 # [Rally Technology Services](https://wiki.audaxhealth.com/x/zR-OBQ)
 
- - [Engineering Balanced Scorecard - All Hands](https://docs.google.com/presentation/d/1-pIkwrFE3Yx1lnyFT1p6hrSf1gCkicGPb48nO_3LcEI/edit?usp=sharing) (slides)
  - [RTS Project Status](https://docs.google.com/spreadsheets/d/17O9LqcmC2hJiIO4I28kzYLmf0uj210AslM6Q4xo5Bi4/edit?usp=sharing)
  - [RTS Videos Channel](https://wiki.audaxhealth.com/x/XA6WBg)
 	 - 	[RTS Town Hall - March 2021](https://docs.google.com/presentation/d/10fRwbL1ZmEBjE3I9qthwHyK12ygG7EEd1fuuKw1ZQIQ/edit?usp=sharing) (slides)
@@ -18,7 +19,7 @@
 
 # Technology Capability Plan
 
- - https://docs.google.com/document/d/1X3mbn9aZQ0w6XU6dkIVTQpXjQ0N7o1Ri9YdOKC2Qsls/edit?usp=sharing
+ - [1Q21 Technology Capability Plan](https://docs.google.com/document/d/1X3mbn9aZQ0w6XU6dkIVTQpXjQ0N7o1Ri9YdOKC2Qsls/edit?usp=sharing)
 
 # Ops
 
@@ -26,7 +27,7 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjYyMTc4MSwtNjU1MzA2OTUsLTU5MT
+eyJoaXN0b3J5IjpbMTI0MzA3MzgxMiwtNjU1MzA2OTUsLTU5MT
 Y2MjY2LDE3Njg0OTExMzAsMjAyNTUxNTg2MywtNTM4MzM5OTk5
 LC05NDQ0MjAyMjIsMzIyNzE2OTA5LDk4NTg2MDQyM119
 -->
