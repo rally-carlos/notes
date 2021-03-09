@@ -23,9 +23,9 @@
 
  - [1Q21 Technology Capability Plan](https://docs.google.com/document/d/1X3mbn9aZQ0w6XU6dkIVTQpXjQ0N7o1Ri9YdOKC2Qsls/edit?usp=sharing)
 
-##Ops
+## Ops
 
- - [TCP Q1 2021 Risk Assessment: Build and Deploy System: rally-jenkins]](https://wiki.audaxhealth.com/x/5WofBw)
+ - [TCP Q1 2021 Risk Assessment: Build and Deploy System: rally-jenkins](https://wiki.audaxhealth.com/x/5WofBw)
 
 # Ops
 
@@ -33,7 +33,7 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTA4OTgzNiwxNTEwMjA2MTUzLDEyND
+eyJoaXN0b3J5IjpbMTIwNzM3MzgyNSwxNTEwMjA2MTUzLDEyND
 MwNzM4MTIsLTY1NTMwNjk1LC01OTE2NjI2NiwxNzY4NDkxMTMw
 LDIwMjU1MTU4NjMsLTUzODMzOTk5OSwtOTQ0NDIwMjIyLDMyMj
 cxNjkwOSw5ODU4NjA0MjNdfQ==
