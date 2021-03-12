@@ -10,6 +10,9 @@
 ## GitHub
  - https://docs.github.com/en/developers/apps/creating-a-github-app-using-url-parameters
 
+## Random
+ - https://github.com/primetheus/jenkins-github-app-library/blob/master/vars/githubApp.groovy
+
 # Test
 
 
@@ -17,5 +20,6 @@ https://github.com/settings/apps/new?name=xsc27-test&description=An%20Octocat%20
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjk4MTkzLDgxODM0MjgyMl19
+eyJoaXN0b3J5IjpbNDM4ODAzODMzLC0yNzI5ODE5Myw4MTgzND
+I4MjJdfQ==
 -->
