@@ -12,9 +12,11 @@
 
 # User Benifets
 
- - Faster onboarding and less support leveraging and industry standard solution
- - Reduced maintance
+ - Faster onboarding and
+ - Less support
+ - Reduced platform maintance as enviroment is enphemeral
 # Solution Ideas
+
 # Hypotheses
 # What’s the most important thing we need to learn first?
  - Will this be adopted?
@@ -23,6 +25,6 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI3Nzc2OTksLTE1MjU3MjMwMTFdfQ
-==
+eyJoaXN0b3J5IjpbLTEyOTI2MjAzODAsLTE0NDI3Nzc2OTksLT
+E1MjU3MjMwMTFdfQ==
 -->
