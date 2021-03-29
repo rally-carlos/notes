@@ -13,7 +13,6 @@
 # Business Outcome
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
- - Increase in CI platform team reputation
  - Increase inovation from CI platform team (reduce mainace and support)
 
 &nbsp;
@@ -48,7 +47,7 @@
  - Less support request (with more decoupled homogenous platform)
  - Reduce platform maintance (as enviroment is enphemeral)
  
-# Solution Ideas
+# Proposed Solution
 
 ## On-prem Github Action runners
 
@@ -69,6 +68,7 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzE4NDQxMSwxNDk0MjY3NTYxLC0xMT
-EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbLTE2MzUyOTQyNDgsMjE0NzE4NDQxMSwxND
+k0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1
+NzIzMDExXX0=
 -->
