@@ -21,7 +21,7 @@
 
 ## All / General
 
- - Improved 
+ - Increased crowd sourced 
 
 ## Development / Product Engineers
  - Immediate onboarding
@@ -55,6 +55,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzgzMDU4OSwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbLTM2MDE4Njg5MSwxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
