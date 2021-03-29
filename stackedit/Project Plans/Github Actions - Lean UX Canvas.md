@@ -72,10 +72,9 @@ Create:
 
  - Execute in AWS `rally-dev` account
  - Access artificats in Artifactory
- - Validation
-	 - Successfully run basic linting
-		 - Terraform 
-		 - Python
+ - Validation: successfully lint
+	 - Terraform 
+	 - Python
 
 ## Phase 2 - Earlier Adopters: Operations
 
@@ -96,7 +95,7 @@ Create:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTkxNjc5ODksMTExNzA4MzEyLDIxND
+eyJoaXN0b3J5IjpbLTExODMwMTg3MjcsMTExNzA4MzEyLDIxND
 cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
 NzY5OSwtMTUyNTcyMzAxMV19
 -->
