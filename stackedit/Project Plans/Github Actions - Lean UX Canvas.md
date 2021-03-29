@@ -22,6 +22,8 @@
  - Faster onboarding and
  - Less support
  - Reduced platform maintance as enviroment is enphemeral
+
+ - 
  
 # Solution Ideas
 
@@ -37,6 +39,6 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMT
-Q0Mjc3NzY5OSwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbLTkwMjk1MDAyMCwxNDk0MjY3NTYxLC0xMT
+EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
