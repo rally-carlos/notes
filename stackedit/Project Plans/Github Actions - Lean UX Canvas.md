@@ -21,7 +21,8 @@
 
 ## All / General
 
- - Increased crowd sourced support (with a homogenous platform)
+ - Increase crowd sourced support (with a homogenous platform)
+ - Reduce CI/build part of cycletime (remove current queue and agent issues)
 
 ## Development / Product Engineers
 
@@ -58,6 +59,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NjQxNzQ2LDE0OTQyNjc1NjEsLTExMT
-I4NjY5NDEsLTE0NDI3Nzc2OTksLTE1MjU3MjMwMTFdfQ==
+eyJoaXN0b3J5IjpbLTIyNTk3OTQyMCwxNDk0MjY3NTYxLC0xMT
+EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
