@@ -8,7 +8,6 @@
 	 - incured monitary cost from CloudBees licening and support
  - The current CI is very customized making it non-intuative, especially to new engineers
 
-Enginers spend time troubleshooting build server over build:
  - Teams are quick to blame build server over investigating the build itself.
  
 # Business Outcome
@@ -69,7 +68,7 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjQxNTU1MywxMTE3MDgzMTIsMjE0Nz
-E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
-Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbNDk0ODI2NTAsMTExNzA4MzEyLDIxNDcxOD
+Q0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5
+OSwtMTUyNTcyMzAxMV19
 -->
