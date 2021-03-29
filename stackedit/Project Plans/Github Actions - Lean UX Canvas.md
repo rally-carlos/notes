@@ -23,7 +23,9 @@
  - Less support
  - Reduced platform maintance as enviroment is enphemeral
 
- - 
+## CI / Jenkins Platform Engineers
+
+ - Reduce on-boarding team time
  
 # Solution Ideas
 
@@ -31,6 +33,8 @@
  - 
 
 # Hypotheses
+
+- Reduce 
 # What’s the most important thing we need to learn first?
 
  - Will this be adopted?
@@ -39,6 +43,6 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjk1MDAyMCwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbLTkwMTMzMjM4MywxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
