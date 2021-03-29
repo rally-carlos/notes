@@ -66,23 +66,25 @@ Create:
  - Features required / prioritize.
  - Rally's best practices and usage patterns
 
-# Minimal Usable Product (a.k.a. MVP)
+# Roadmap
 
-Phase 2 - Earlier Adopter
+## Phase 1 - Minimal Usable Product (a.k.a. MVP)
+
+
+
+## Phase 2 - Earlier Adopter
 
 Operations
 
  - Linting
-	 - Terrafor
+	 - Terraform
 
-Linting
-
-## Phase 2
+## Phase 3 - Productionalizing
 
 * monitoring
 * alerting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY5NDA5MDUsMTExNzA4MzEyLDIxND
+eyJoaXN0b3J5IjpbLTEyMjgyMjc5ODMsMTExNzA4MzEyLDIxND
 cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
 NzY5OSwtMTUyNTcyMzAxMV19
 -->
