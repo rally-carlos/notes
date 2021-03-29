@@ -21,10 +21,11 @@
 
 ## All / General
 
- - Increased crowd sourced 
+ - Increased crowd sourced support (with a homogenous platform)
 
 ## Development / Product Engineers
- - Immediate onboarding
+
+ - Red onboarding (with single, homogenous platform)
 
 ## Ops Engineers
  - Faster onboarding and
@@ -55,6 +56,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDE4Njg5MSwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbLTcyOTkxNzQ0NSwxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
