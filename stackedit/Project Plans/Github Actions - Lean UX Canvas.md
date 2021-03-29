@@ -14,9 +14,8 @@
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
  - Increase inovation from CI platform team (reduce mainace and support)
+ - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
 
-&nbsp;
- - reduced costs when team run soley on Github Actions
 
 
 # Users and Customers
@@ -69,7 +68,7 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzA4MzEyLDIxNDcxODQ0MTEsMTQ5ND
-I2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5OSwtMTUyNTcy
-MzAxMV19
+eyJoaXN0b3J5IjpbMTM5NDg2ODQ5LDExMTcwODMxMiwyMTQ3MT
+g0NDExLDE0OTQyNjc1NjEsLTExMTI4NjY5NDEsLTE0NDI3Nzc2
+OTksLTE1MjU3MjMwMTFdfQ==
 -->
