@@ -13,7 +13,7 @@
 # Business Outcome
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
- - Increase inovation from CI platform team (reduce mainace and support)
+ - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" ()
  - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
 
 
@@ -68,7 +68,7 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDg2ODQ5LDExMTcwODMxMiwyMTQ3MT
-g0NDExLDE0OTQyNjc1NjEsLTExMTI4NjY5NDEsLTE0NDI3Nzc2
-OTksLTE1MjU3MjMwMTFdfQ==
+eyJoaXN0b3J5IjpbLTIxNTcxOTk1OCwxMTE3MDgzMTIsMjE0Nz
+E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
+Njk5LC0xNTI1NzIzMDExXX0=
 -->
