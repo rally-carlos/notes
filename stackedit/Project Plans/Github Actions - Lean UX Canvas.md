@@ -4,9 +4,9 @@
 	 - high platform maintaince cost (time)
 	 - high support costs; produces serveral support requests per day (including #jenkins-smes, SO, Jira tickets)
 	 - difficult to scale because platform is non-homogenous as every team is allowed to modify their controller
-	 - security concerns, each team can configure their controller without best practices
+	 - security concerns, each team can configure their controller without best practices (managing Jenkins is not their primary focus)
 	 - incured monitary cost from CloudBees licening and support
- - The current CI is very customized making it non-intuative, especially to new engineers
+	 - non-intuative to work with CI
 
  - Teams are quick to blame build server over investigating the build itself.
  
@@ -97,7 +97,7 @@ This will guide adjustments to the roadmap:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NTU4NDQxLDExMTcwODMxMiwyMTQ3MT
-g0NDExLDE0OTQyNjc1NjEsLTExMTI4NjY5NDEsLTE0NDI3Nzc2
-OTksLTE1MjU3MjMwMTFdfQ==
+eyJoaXN0b3J5IjpbMjEyNDU3MTgwNiwxMTE3MDgzMTIsMjE0Nz
+E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
+Njk5LC0xNTI1NzIzMDExXX0=
 -->
