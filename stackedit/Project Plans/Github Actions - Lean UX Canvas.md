@@ -19,8 +19,12 @@
 
 # User Benifets
 
-## Development / Product Engineers
+## All / General
 
+ - Improved 
+
+## Development / Product Engineers
+ - Immediate onboarding
 
 ## Ops Engineers
  - Faster onboarding and
@@ -41,7 +45,7 @@ Create:
 
 # Hypotheses
 
-- Reduce on-boarding time to 0
+- Reduce team provisioning time to 0
 
 # What’s the most important thing we need to learn first?
 
@@ -51,6 +55,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU2MTMxMjksMTQ5NDI2NzU2MSwtMT
-ExMjg2Njk0MSwtMTQ0Mjc3NzY5OSwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbMTEyNzgzMDU4OSwxNDk0MjY3NTYxLC0xMT
+EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
