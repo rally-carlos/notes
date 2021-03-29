@@ -31,12 +31,13 @@
 ## Ops Engineers
  - Faster onboarding and
  - Less support
- - Reduced platform maintance as enviroment is enphemeral
+ 
 
 ## CI / Jenkins Platform Engineers
 
  - Reduce on-boarding team time
  - Less support request (with more decoupled homogenous platform)
+ - Reduce platform maintance (as enviroment is enphemeral)
  
 # Solution Ideas
 
@@ -59,6 +60,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTk3OTQyMCwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbLTU2MzI3MDYxNywxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
