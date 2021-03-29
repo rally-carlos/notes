@@ -70,7 +70,7 @@ Create:
 
 ## Phase 1 - Minimal Usable Product (a.k.a. MVP)
 
-
+ - Build in AWS 
 
 ## Phase 2 - Earlier Adopter
 
@@ -87,7 +87,7 @@ Operations
  - monitoring
  - alerting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTg1NDEwMSwxMTE3MDgzMTIsMjE0Nz
+eyJoaXN0b3J5IjpbMTU0NzMzODE2MiwxMTE3MDgzMTIsMjE0Nz
 E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
 Njk5LC0xNTI1NzIzMDExXX0=
 -->
