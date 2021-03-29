@@ -72,15 +72,16 @@ Create:
 
  - Execute in AWS `rally-dev` account
  - Access artificats in Artifactory
- - Successfully run basic linting
-	 - Terraform 
+ - Validation
+	 - Successfully run basic linting
+		 - Terraform 
+		 - Python
 
 ## Phase 2 - Earlier Adopter
 
 Operations
 
- - Linting
-	 - Terraform
+ - 
  - Start developing usage/best-practices (recommended happy path) guides
 
 ## Phase 3 - Build
@@ -89,8 +90,12 @@ Operations
 
  - monitoring
  - alerting
+
+# Risks
+
+ - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODUyNjU1MSwxMTE3MDgzMTIsMjE0Nz
+eyJoaXN0b3J5IjpbLTk1ODEyNjg4MSwxMTE3MDgzMTIsMjE0Nz
 E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
 Njk5LC0xNTI1NzIzMDExXX0=
 -->
