@@ -60,11 +60,13 @@ Create:
 - Reduce team provisioning time to 0
 - Reduce team specific support questions to 0
 
-# Discovery
+# Leasons to Learn
+
+This will guide adjustments to the roadmap:
 
  - How will users actually leverage this?
- - Features required / prioritize.
- - Rally's best practices and usage patterns
+	 - Features required / prioritize.
+	 - Rally's best practices and usage patterns
 
 # Roadmap
 
@@ -95,7 +97,7 @@ Create:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTE3NTkzNywxMTE3MDgzMTIsMjE0Nz
-E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
-Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbLTIwODE3Njg0NjUsMTExNzA4MzEyLDIxND
+cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
+NzY5OSwtMTUyNTcyMzAxMV19
 -->
