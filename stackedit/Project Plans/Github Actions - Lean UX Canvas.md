@@ -12,7 +12,8 @@
 
 # User Benifets
 
- - Faster onboarding and fewer Industry standard solution
+ - Faster onboarding and less support leveraging and industry standard solution
+ - Reduced maintance
 # Solution Ideas
 # Hypotheses
 # What’s the most important thing we need to learn first?
@@ -22,5 +23,6 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNDg3NDQsLTE1MjU3MjMwMTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDI3Nzc2OTksLTE1MjU3MjMwMTFdfQ
+==
 -->
