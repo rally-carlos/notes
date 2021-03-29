@@ -48,6 +48,7 @@ Create:
 # Hypotheses
 
 - Reduce team provisioning time to 0
+- Reduce team specific support questions to 0
 
 # What’s the most important thing we need to learn first?
 
@@ -57,6 +58,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTg1ODQyMSwxNDk0MjY3NTYxLC0xMT
-EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbODA5NjQxNzQ2LDE0OTQyNjc1NjEsLTExMT
+I4NjY5NDEsLTE0NDI3Nzc2OTksLTE1MjU3MjMwMTFdfQ==
 -->
