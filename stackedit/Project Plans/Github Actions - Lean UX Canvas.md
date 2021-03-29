@@ -1,6 +1,8 @@
 # Business Problem
 * The current Jenkins platform
-	* a lot of maintaince and engineer
+	* a lot of maintaince and engineer engagment time
+	* produces serveral support requests per day (including #jenkins-smes, SO, Jira tickets)
+ - The current CI
 # Business Outcome
 # Users and Customers
 
@@ -17,5 +19,5 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTg0MjA3NiwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbMTQwMjI5NTk1MCwtMTUyNTcyMzAxMV19
 -->
