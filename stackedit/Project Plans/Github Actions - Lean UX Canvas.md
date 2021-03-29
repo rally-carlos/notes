@@ -43,10 +43,11 @@
 
 ## CI / Jenkins Platform Engineers
 
- - Reduce on-boarding team time
+ - Reduce team on-boarding overhead
  - Less support request (with more decoupled homogenous platform)
  - Reduce platform maintance (as enviroment is enphemeral)
- 
+ - Increase in CI platform team reputation
+
 # Proposed Solution
 
 ## On-prem Github Action runners
@@ -68,7 +69,7 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUyOTQyNDgsMjE0NzE4NDQxMSwxND
-k0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1
-NzIzMDExXX0=
+eyJoaXN0b3J5IjpbMTExNzA4MzEyLDIxNDcxODQ0MTEsMTQ5ND
+I2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5OSwtMTUyNTcy
+MzAxMV19
 -->
