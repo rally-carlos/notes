@@ -8,12 +8,13 @@
 	 - incured monitary cost from CloudBees licening and support
  - The current CI is very customized making it non-intuative, especially to new engineers
 
+Enginers spend time troubleshooting build server over build:
  - Teams are quick to blame build server over investigating the build itself.
  
 # Business Outcome
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
- - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" ()
+ - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
  - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
 
 
@@ -68,7 +69,7 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTcxOTk1OCwxMTE3MDgzMTIsMjE0Nz
+eyJoaXN0b3J5IjpbMTA4MjQxNTU1MywxMTE3MDgzMTIsMjE0Nz
 E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
 Njk5LC0xNTI1NzIzMDExXX0=
 -->
