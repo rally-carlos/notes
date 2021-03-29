@@ -1,4 +1,6 @@
 # Business Problem
+* The current Jenkins platform
+	* a lot of maintaince and engineer
 # Business Outcome
 # Users and Customers
 
@@ -12,9 +14,8 @@
  - Will this be adopted?
  - Features required / prioritize.
 
-# What’s the least amount of work we need to do to learn the next most important thing?
+# Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA4MTcyMTksLTE1MjU3MjMwMTFdfQ
-==
+eyJoaXN0b3J5IjpbMTQ2NTg0MjA3NiwtMTUyNTcyMzAxMV19
 -->
