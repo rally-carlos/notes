@@ -13,9 +13,12 @@
 # Business Outcome
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
-
- - reduced costs when team run soley on Github Actions
  - Increase in CI platform team reputation
+ - Increase inovation from CI platform team (reduce mainace and support)
+
+&nbsp;
+ - reduced costs when team run soley on Github Actions
+
 
 # Users and Customers
 
@@ -66,6 +69,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDMxNDY2MiwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbMjE0NzE4NDQxMSwxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
