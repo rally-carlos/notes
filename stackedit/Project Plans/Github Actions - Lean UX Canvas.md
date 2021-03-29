@@ -25,7 +25,7 @@
 
 ## Development / Product Engineers
 
- - Red onboarding (with single, homogenous platform)
+ - Immediate team onboarding (with a single, homogenous platform)
 
 ## Ops Engineers
  - Faster onboarding and
@@ -35,6 +35,7 @@
 ## CI / Jenkins Platform Engineers
 
  - Reduce on-boarding team time
+ - Less support request (with more decoupled homogenous platform)
  
 # Solution Ideas
 
@@ -56,6 +57,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTkxNzQ0NSwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbLTc3NTg1ODQyMSwxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
