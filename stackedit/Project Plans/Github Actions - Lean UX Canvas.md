@@ -8,12 +8,14 @@
 	 - incured monitary cost from CloudBees licening and support
  - The current CI is very customized making it non-intuative, especially to new engineers
 
- - Teams are quick to blame 
+ - Teams are quick to blame build server over investigating the build itself.
+ 
 # Business Outcome
+
+ - Reduce cycletime (with more focus on troubleshooting builds over build server)
 
  - reduced costs when team run soley on Github Actions
  - Increase in CI platform team reputation
-	Currently, teams are quick to blame the build and artifact servers
 
 # Users and Customers
 
@@ -64,6 +66,6 @@ Create:
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjQxMDI3OSwxNDk0MjY3NTYxLC0xMT
+eyJoaXN0b3J5IjpbLTYzNDMxNDY2MiwxNDk0MjY3NTYxLC0xMT
 EyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
 -->
