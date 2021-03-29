@@ -78,13 +78,16 @@ Operations
 
  - Linting
 	 - Terraform
+ - Start developing usage/best-practices (recommended happy path) guides
+
+## Phase 3 - Build
 
 ## Phase 3 - Productionalizing
 
-* monitoring
-* alerting
+ - monitoring
+ - alerting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgyMjc5ODMsMTExNzA4MzEyLDIxND
-cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
-NzY5OSwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbLTM1NTg1NDEwMSwxMTE3MDgzMTIsMjE0Nz
+E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
+Njk5LC0xNTI1NzIzMDExXX0=
 -->
