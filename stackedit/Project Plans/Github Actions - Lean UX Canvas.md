@@ -3,6 +3,7 @@
  - The current Jenkins platform
 	 - a lot of maintaince and engineer engagment time
 	 - produces serveral support requests per day (including #jenkins-smes, SO, Jira tickets)
+	 - non-homogenous as every team is allowed to modify their controller
  - The current CI is very customized making it non-intuative, especially to new engineers
 
 # Business Outcome
@@ -33,6 +34,6 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI4NjY5NDEsLTE0NDI3Nzc2OTksLT
-E1MjU3MjMwMTFdfQ==
+eyJoaXN0b3J5IjpbLTQ0MzEwMDQ1NSwtMTExMjg2Njk0MSwtMT
+Q0Mjc3NzY5OSwtMTUyNTcyMzAxMV19
 -->
