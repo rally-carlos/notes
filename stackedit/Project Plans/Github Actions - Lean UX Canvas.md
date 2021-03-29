@@ -64,11 +64,12 @@ Create:
 
  - Will this be adopted?
  - Features required / prioritize.
+ - Rally's best practices and usage patterns
 
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0ODI2NTAsMTExNzA4MzEyLDIxNDcxOD
-Q0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5
-OSwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbMTc2MTk1MTgzOCwxMTE3MDgzMTIsMjE0Nz
+E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
+Njk5LC0xNTI1NzIzMDExXX0=
 -->
