@@ -83,9 +83,11 @@ Create:
  - Publicize / demo to operations teams
  - Start developing usage/best-practices (recommended happy path) guides
 
-## Phase 3 - Build
+## Phase 3 - Build Service
 
-## Phase 3 - Productionalizing
+ - TBD (HelloPlay?)
+
+## Phase 4 - Productionalizing
 
  - monitoring
  - alerting
@@ -94,7 +96,7 @@ Create:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc5NTkyNzQsMTExNzA4MzEyLDIxND
+eyJoaXN0b3J5IjpbLTE2OTkxNjc5ODksMTExNzA4MzEyLDIxND
 cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
 NzY5OSwtMTUyNTcyMzAxMV19
 -->
