@@ -68,14 +68,21 @@ Create:
 
 # Minimal Usable Product (a.k.a. MVP)
 
-Run publicly available actions
+Phase 2 - Earlier Adopter
+
+Operations
+
+ - Linting
+	 - Terrafor
+
+Linting
 
 ## Phase 2
 
 * monitoring
 * alerting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAzNTIzOTAsMTExNzA4MzEyLDIxND
+eyJoaXN0b3J5IjpbLTEzMjY5NDA5MDUsMTExNzA4MzEyLDIxND
 cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
 NzY5OSwtMTUyNTcyMzAxMV19
 -->
