@@ -1,10 +1,10 @@
 # Business Problem
 
  - The current Jenkins platform
-	 - a lot of maintaince and engineer engagment time
-	 - produces serveral support requests per day (including #jenkins-smes, SO, Jira tickets)
+	 - high platform maintaince cost (time)
+	 - high support costs; produces serveral support requests per day (including #jenkins-smes, SO, Jira tickets)
 	 - difficult to scale because platform is non-homogenous as every team is allowed to modify their controller
-	 - security conideration since each team can configure their controller without best practices
+	 - security concerns, each team can configure their controller without best practices
 	 - incured monitary cost from CloudBees licening and support
  - The current CI is very customized making it non-intuative, especially to new engineers
 
@@ -97,7 +97,7 @@ This will guide adjustments to the roadmap:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE3Njg0NjUsMTExNzA4MzEyLDIxND
-cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
-NzY5OSwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbODA5NTU4NDQxLDExMTcwODMxMiwyMTQ3MT
+g0NDExLDE0OTQyNjc1NjEsLTExMTI4NjY5NDEsLTE0NDI3Nzc2
+OTksLTE1MjU3MjMwMTFdfQ==
 -->
