@@ -77,11 +77,10 @@ Create:
 		 - Terraform 
 		 - Python
 
-## Phase 2 - Earlier Adopters
+## Phase 2 - Earlier Adopters: Operations
 
-Operations:
  - CI Platform team - FluxCD
- - Publicize 
+ - Publicize / demo to operations teams
  - Start developing usage/best-practices (recommended happy path) guides
 
 ## Phase 3 - Build
@@ -95,7 +94,7 @@ Operations:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDYzNzY3NSwxMTE3MDgzMTIsMjE0Nz
-E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
-Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbLTExNTc5NTkyNzQsMTExNzA4MzEyLDIxND
+cxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3
+NzY5OSwtMTUyNTcyMzAxMV19
 -->
