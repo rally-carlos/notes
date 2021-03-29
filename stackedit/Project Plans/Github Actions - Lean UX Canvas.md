@@ -9,7 +9,7 @@
  - The current CI is very customized making it non-intuative, especially to new engineers
 
 # Business Outcome
- - reduce costs when team run soley on Github Actions
+ - reduced costs when team run soley on Github Actions
 
 # Users and Customers
 
@@ -37,6 +37,6 @@
 # Minimal Usable Product (a.k.a. MVP)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTA0MTk5NywtMTExMjg2Njk0MSwtMT
+eyJoaXN0b3J5IjpbMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMT
 Q0Mjc3NzY5OSwtMTUyNTcyMzAxMV19
 -->
