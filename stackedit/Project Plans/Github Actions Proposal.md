@@ -1,8 +1,8 @@
 # Overview
 
-A CI platform infrastructure should be an implentation detail that users are unconcerned about. It should also be a scalable consistant experiance with best-practices across an organization. Currently, excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themseles or inovating and maturing the CI platform. Each team is free to customize their build server. This make support more difficult and introduce security concerns. (Customization should be the exeption and not the norm.) More recently, teams are beinging to adopt alternative CI platforms on their own signifing a demand for a new solution.
+A CI platform infrastructure should be an implentation detail that users are unconcerned about. It should also be a scalable consistant experiance with best-practices across an organization. Currently, excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themseles or inovating and maturing the CI platform. A team's build needs require unique customization that are Each team is free to customize their build server. This make support more difficult and introduce security concerns. (Customization should be the exeption and not the norm.) More recently, teams are beinging to adopt alternative CI platforms on their own signifing a demand for a new solution.
 
-A homogenous CI platform that is loosly coupled 
+A homogenous CI platform that is loosly coupled from build modification.
 
 A homogenous CI platform with On-prem Github Action runners will gain Rally the benefits:
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
@@ -108,6 +108,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzIwOTgyOSwxOTU0MDc3MDE4LDEyNz
-Y4MTQwMzQsLTEzNDk0MjA5MThdfQ==
+eyJoaXN0b3J5IjpbMTkzMjkzMDcyMCwtNDQ3MjA5ODI5LDE5NT
+QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
 -->
