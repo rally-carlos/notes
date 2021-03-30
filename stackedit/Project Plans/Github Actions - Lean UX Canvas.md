@@ -83,10 +83,10 @@ This will guide adjustments to the roadmap:
 
 ## Phase 4 - Productionalizing
 
- - monitoring
- - alerting
+ - Monitoring
+ - Alerting
  - Automate reprovisioning of "dummy" runner.
-   Note: A “dummy” self-hosted runner will need to be maintained. It is required to trigger events, but will not actually be used.  “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
+   Note: A “dummy” self-hosted runner will need to be maintained. It is required to trigger events, but will not actually be used.”  “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 
 # Risks
 
@@ -96,7 +96,7 @@ This will guide adjustments to the roadmap:
 
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgyODY3MDcsMzI4NTI3Mjc5LDIxMj
+eyJoaXN0b3J5IjpbLTExMTMwODk3MjQsMzI4NTI3Mjc5LDIxMj
 Q1NzE4MDYsMTExNzA4MzEyLDIxNDcxODQ0MTEsMTQ5NDI2NzU2
 MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5OSwtMTUyNTcyMzAxMV
 19
