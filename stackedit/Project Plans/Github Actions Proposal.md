@@ -1,6 +1,6 @@
 # Overview
 
-A CI platform infrastructure should be an implentation detail that users are unconcerned about. It should also be a scalable consistant experiance across an organization. Currently, excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themseles or inovating and maturing the CI platform. Each team is free to customize their build server. Customization should be the exeption and not the norm as 
+A CI platform infrastructure should be an implentation detail that users are unconcerned about. It should also be a scalable consistant experiance across an organization. Currently, excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themseles or inovating and maturing the CI platform. Each team is free to customize their build server. This make support more difficult and introduce security concerns. (Customization should be the exeption and not the norm.)
 
 A CI platform serves to facility automation of tests, builds, and deployment.
 
@@ -106,6 +106,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxNjYyOTE5LDEyNzY4MTQwMzQsLTEzND
-k0MjA5MThdfQ==
+eyJoaXN0b3J5IjpbLTE1ODUwNDI2MzcsMTI3NjgxNDAzNCwtMT
+M0OTQyMDkxOF19
 -->
