@@ -1,6 +1,7 @@
 # Overview
 
-A CI platform infrastructure should be an implentation detail that users are unconcerned abou
+A CI platform infrastructure should be an implentation detail that users are unconcerned about. It should also be consistant experiance across an organization. Currently, much time i
+
 A CI platform serves to facility automation of tests, builds, and deployment.
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
@@ -105,6 +106,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE1NzkwOTksMTI3NjgxNDAzNCwtMT
-M0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbMTczMjQ4MDM3MywxMjc2ODE0MDM0LC0xMz
+Q5NDIwOTE4XX0=
 -->
