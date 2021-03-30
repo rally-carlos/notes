@@ -53,12 +53,6 @@ EC2 over K8s is able to "stay quite close to the current GitHub approach". Also,
 - Reduce team provisioning time to 0
 - Reduce team specific support questions to 0
 
-“We believe that [business outcome] will be achieved if [user] attains [benefit] with [feature].”
-
-We believe that reduced cost will be achieved if
-We believe that decreased cycle time will be achieved if
-We believe that increased CI platform maturity and inovation will be achieved if the CI platform team (Tiger) attains 
-
 # Leasons to Learn
 
 This will guide adjustments to the roadmap:
@@ -96,11 +90,11 @@ This will guide adjustments to the roadmap:
 
 # Risks
 
- - Accessing secrets from Vault
+ - Accessing secrets from Vault does not have a clear path/solution.
 
 # Limitations
 
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk0MjA5MThdfQ==
+eyJoaXN0b3J5IjpbMTYxMzg1ODcyMSwtMTM0OTQyMDkxOF19
 -->
