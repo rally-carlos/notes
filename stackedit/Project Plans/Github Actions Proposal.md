@@ -9,8 +9,8 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
    Amount TBD
  - Enable CI platform maturity and invoation by reducing maintance and support (free up CI platform to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
 	- Decrease support time from 8h/week to 4/week (though initially this may be higher)
-	- Decrease maintance from 4h/month to 2h/month
- - Decrease in costs  (with enphemeral infrastracture and no additional vendor licensing)
+	- Decrease maintance from 6h/month to 2h/month
+ - Decrease in costs with enphemeral infrastracture and no additional vendor licensing.
 
 # Business Problem
 
@@ -111,6 +111,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMTc4MDM1LC00NDcyMDk4MjksMTk1ND
-A3NzAxOCwxMjc2ODE0MDM0LC0xMzQ5NDIwOTE4XX0=
+eyJoaXN0b3J5IjpbMTYyMjM2MzIyMCwtNDQ3MjA5ODI5LDE5NT
+QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
 -->
