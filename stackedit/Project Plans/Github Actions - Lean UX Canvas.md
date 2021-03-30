@@ -46,7 +46,7 @@ Create:
  - homogenous platform
 
 ### K8s vs EC2
-EC2 over K8s is able to "stay quite close to the current GitHub approach". Also, EC2 will more easiliy support more use cases, 
+EC2 over K8s is able to "stay quite close to the current GitHub approach". Also, EC2 will more easiliy support more use cases,  such as Docker and avoid DinD.
 
 # Hypotheses
 
@@ -89,9 +89,13 @@ This will guide adjustments to the roadmap:
 # Risks
 
  - Accessing secrets from Vault
+
+# Limitations
+
+ - One runner / instance type per Github App. [https://github.com/philips-labs/terraform-aws-github-runner/issues/73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc1NjkyMTksMzI4NTI3Mjc5LDIxMj
-Q1NzE4MDYsMTExNzA4MzEyLDIxNDcxODQ0MTEsMTQ5NDI2NzU2
-MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5OSwtMTUyNTcyMzAxMV
-19
+eyJoaXN0b3J5IjpbMTUxNDYyOTk5OCwzMjg1MjcyNzksMjEyND
+U3MTgwNiwxMTE3MDgzMTIsMjE0NzE4NDQxMSwxNDk0MjY3NTYx
+LC0xMTEyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX
+0=
 -->
