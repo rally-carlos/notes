@@ -4,15 +4,9 @@ A CI platform infrastructure should be an implentation detail that users are unc
 
 A homogenous CI platform with On-prem Github Action runners will gain Rally the benefits:
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
- - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
- - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
+ - Increase inovation from CI platform team (by reducing maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
+ - Decrease in costs  (with enphemeral infrastracture and no additional vendor licensing)
 
-
-A CI platform serves to facility automation of tests, builds, and deployment.
-
- - Reduce cycletime (with more focus on troubleshooting builds over build server)
- - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
- - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
 # Business Problem
 
  - The current Jenkins platform
@@ -112,6 +106,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU2MDU3NDUsMTI3NjgxNDAzNCwtMT
-M0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbMTk1NDA3NzAxOCwxMjc2ODE0MDM0LC0xMz
+Q5NDIwOTE4XX0=
 -->
