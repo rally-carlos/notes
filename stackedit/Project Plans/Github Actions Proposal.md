@@ -19,8 +19,6 @@ Github Action provides a homogenous CI platform loosely coupled from build-level
 	- Decrease in costs with ephemeral infrastructure and no additional vendor licensing.
       The exact current costs are unknown. GH Action runner infrastructure is more efficient and not persistent (besides AMIs, Lambdas, etc).
 
-  
-
 # Users and Customers
 
  - CI Platform Engineers
@@ -96,7 +94,7 @@ This will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ1MzM4NTQsLTE1NjczNDYwMiwzMz
+eyJoaXN0b3J5IjpbLTE3ODAyNDQxNjIsLTE1NjczNDYwMiwzMz
 E1NzI5NTIsMTQxNzMxOTg2OCwtNDQ3MjA5ODI5LDE5NTQwNzcw
 MTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
 -->
