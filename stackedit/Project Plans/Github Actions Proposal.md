@@ -86,22 +86,18 @@ This will guide adjustments to the roadmap:
  - PubliPublicize/democize / demo to operations teams
  - Start developing usage/best-practices (recommended happy path) guides
 
-  
-
 ## Phase 3 - Build A Service
 
  - TBD (HelloPlay?)
   
 ## Phase 4 - Productionalizing
 
-- Monitoring
-- Alerting
-
-- Automate reprovisioning of "dummy" runner.
-
-Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
+ - Monitoring
+ - Alerting
+ - Automate reprovisioning of "dummy" runner.
+	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDc2MjU1NCwzMzE1NzI5NTIsMTQxNz
+eyJoaXN0b3J5IjpbLTE1NjczNDYwMiwzMzE1NzI5NTIsMTQxNz
 MxOTg2OCwtNDQ3MjA5ODI5LDE5NTQwNzcwMTgsMTI3NjgxNDAz
 NCwtMTM0OTQyMDkxOF19
 -->
