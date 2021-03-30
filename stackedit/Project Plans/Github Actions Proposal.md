@@ -74,8 +74,8 @@ This will guide adjustments to the roadmap:
  - Execute in AWS `rally-dev` account
  - Access artificats in Artifactory
  - Validation via linting jobs
- - Terraform
- - Python
+   - Terraform
+   - Python
 
 ## Phase 2 - Earlier Adopters: Operations
 
@@ -94,7 +94,8 @@ This will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAyNDQxNjIsLTE1NjczNDYwMiwzMz
-E1NzI5NTIsMTQxNzMxOTg2OCwtNDQ3MjA5ODI5LDE5NTQwNzcw
-MTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbLTIwMTY0NDI3NTQsLTE3ODAyNDQxNjIsLT
+E1NjczNDYwMiwzMzE1NzI5NTIsMTQxNzMxOTg2OCwtNDQ3MjA5
+ODI5LDE5NTQwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF
+19
 -->
