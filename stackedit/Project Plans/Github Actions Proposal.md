@@ -11,25 +11,7 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
 	- Decrease support time from 8h/week to 4/week (though initially this may be higher)
 	- Decrease maintance from 6h/month to 2h/month
  - Decrease in costs with enphemeral infrastracture and no additional vendor licensing.
-    Exact current costs are unknown. GH Action runner infrastructure is more efficent and 
-
-# Business Problem
-
- - The current Jenkins platform
-	 - high platform maintaince cost (time)
-	 - high support costs; produces serveral support requests per day (including #jenkins-smes, SO, Jira tickets)
-	 - difficult to scale because platform is non-homogenous as every team is allowed to modify their controller
-	 - security concerns, each team can configure their controller without best practices (managing Jenkins is not their primary focus)
-	 - incured monitary cost from CloudBees licening and support
-	 - non-intuative to work with CI
-
- - Teams are quick to blame build server over investigating the build itself.
- 
-# Business Outcome
-
- - Reduce cycletime (with more focus on troubleshooting builds over build server)
- - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
- - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
+    Exact current costs are unknown. GH Action runner infrastructure is more efficent and not persistant (besides such things as AMIs and Lambdas).
 
 # Users and Customers
 
@@ -37,15 +19,15 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
  - Operation Engineers
  - Development Engineers
 
-# User Benifets
+## User Benifets
 
-## All / General
+### All / General
 
  - Increase crowd sourced support (with a homogenous platform)
  - Reduce CI/build part of cycletime (remove current queue and agent issues)
  - Immediate team onboarding (with a single, homogenous platform)
 
-## CI / Jenkins Platform Engineers
+### CI / Jenkins Platform Engineers
 
  - Reduce team on-boarding overhead
  - Less support request (with more decoupled homogenous platform)
@@ -112,6 +94,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MzI5MjE4LC00NDcyMDk4MjksMTk1ND
-A3NzAxOCwxMjc2ODE0MDM0LC0xMzQ5NDIwOTE4XX0=
+eyJoaXN0b3J5IjpbMTE5OTEzNywtNDQ3MjA5ODI5LDE5NTQwNz
+cwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
 -->
