@@ -38,7 +38,10 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
 
 # Design Notes
 
-### K8s vs EC2
+## On-Prem vs SasS
+On-prem runners places the execution inside Rally VPCs where network access and 
+
+## K8s vs EC2
 EC2 over K8s is able to "stay quite close to the current GitHub approach". Also, EC2 will more easiliy support more use cases,  such as Docker and avoid DinD.
 
 # Hypotheses
@@ -89,6 +92,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzEzODkzOSwtNDQ3MjA5ODI5LDE5NT
-QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbNDYzNDY3MDY1LC00NDcyMDk4MjksMTk1ND
+A3NzAxOCwxMjc2ODE0MDM0LC0xMzQ5NDIwOTE4XX0=
 -->
