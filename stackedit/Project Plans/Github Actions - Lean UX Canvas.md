@@ -55,9 +55,9 @@ EC2 over K8s is able to "stay quite close to the current GitHub approach". Also,
 
 “We believe that [business outcome] will be achieved if [user] attains [benefit] with [feature].”
 
-We believe that there will be reduce cost
-We believe that there will be decrease cycle time
-We believe that there will be increase in CI platform maturity and inovation i
+We believe that reduced cost will be achieved if
+We believe that decreased cycle time will be achieved if
+We believe that improved CI platform maturity and inovation i
 
 # Leasons to Learn
 
@@ -102,8 +102,8 @@ This will guide adjustments to the roadmap:
 
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODk5MTEwNywtMTExMzA4OTcyNCwzMj
-g1MjcyNzksMjEyNDU3MTgwNiwxMTE3MDgzMTIsMjE0NzE4NDQx
-MSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3Njk5LC
-0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbLTE5ODI1NDcwODEsLTExMTMwODk3MjQsMz
+I4NTI3Mjc5LDIxMjQ1NzE4MDYsMTExNzA4MzEyLDIxNDcxODQ0
+MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0MSwtMTQ0Mjc3NzY5OS
+wtMTUyNTcyMzAxMV19
 -->
