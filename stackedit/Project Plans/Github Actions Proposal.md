@@ -69,7 +69,7 @@ These lessons will guide adjustments to the roadmap:
 
 # Roadmap
 
-## Phase 1 - Minimal Usable Product (a.k.a. MVP)
+## Milestone 1 - Minimal Usable Product (a.k.a. MVP)
 
  - Execute in AWS `rally-dev` account
  - Access artifacts from Artifactory
@@ -77,26 +77,26 @@ These lessons will guide adjustments to the roadmap:
    - Terraform
    - Python
 
-## Phase 2 - Earlier Adopters: Operations
+## Milestone 2 - Earlier Adopters: Operations
 
  - CI Platform team - FluxCD
  - PubliPublicize/democize / demo to operations teams
  - Start developing usage/best-practices (recommended happy path) guides
 
-## Phase 3 - Build A Service
+## Milestone 3 - Build A Service
 
  - TBD (HelloPlay?)
   
-## Phase 4 - Productionalizing
+## Milestone 4 - Productionalizing
 
  - Monitoring
  - Alerting
  - Automate reprovisioning of "dummy" runner.
    Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ1Mjc2OTIsMTYyNzQzMzMxLDkzMD
-I5ODQyOSw0MjU4NTA0MjYsMTU3NjQxOTAwNiwtMTc4MDI0NDE2
-MiwtMTU2NzM0NjAyLDMzMTU3Mjk1MiwxNDE3MzE5ODY4LC00ND
-cyMDk4MjksMTk1NDA3NzAxOCwxMjc2ODE0MDM0LC0xMzQ5NDIw
-OTE4XX0=
+eyJoaXN0b3J5IjpbLTk0MDE2MzAzMCwtMjA4NDUyNzY5MiwxNj
+I3NDMzMzEsOTMwMjk4NDI5LDQyNTg1MDQyNiwxNTc2NDE5MDA2
+LC0xNzgwMjQ0MTYyLC0xNTY3MzQ2MDIsMzMxNTcyOTUyLDE0MT
+czMTk4NjgsLTQ0NzIwOTgyOSwxOTU0MDc3MDE4LDEyNzY4MTQw
+MzQsLTEzNDk0MjA5MThdfQ==
 -->
