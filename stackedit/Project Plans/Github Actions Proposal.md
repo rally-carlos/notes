@@ -1,6 +1,6 @@
 # Overview
 
-The CI platform 
+A CI platform should be an implentation detail that users should notice other than for configuring builds
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
  - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
@@ -104,5 +104,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbLTQ1NDY3MDk3MCwxMjc2ODE0MDM0LC0xMz
+Q5NDIwOTE4XX0=
 -->
