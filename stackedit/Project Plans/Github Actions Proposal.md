@@ -12,12 +12,12 @@ Github Action provides a homogenous CI platform loosely coupled from build-level
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
 	Amount TBD
  - Enable CI platform maturity and invocation by reducing maintenance and support (free up CI platform to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244)).
-	- Decrease support time from 8h/week to 4/week (initially, this may be higher)
-	- Decrease maintenance from 6h/month to 2h/month
-	- Reduce team provisioning time to 0
-	- Reduce team-specific support questions to 0 (more focus on platform level inquiries)
-	- Decrease in costs with ephemeral infrastructure and no additional vendor licensing.
-      The exact current costs are unknown. GH Action runner infrastructure is more efficient and not persistent (besides AMIs, Lambdas, etc.).
+   - Decrease support time from 8h/week to 4/week (initially, this may be higher)
+   - Decrease maintenance from 6h/month to 2h/month
+   - Reduce team provisioning time to 0
+   - Reduce team-specific support questions to 0 (more focus on platform level inquiries)
+   - Decrease in costs with ephemeral infrastructure and no additional vendor licensing.
+     The exact current costs are unknown. GH Action runner infrastructure is more efficient and not persistent (besides AMIs, Lambdas, etc.).
 
 # Users and Customers
 
@@ -94,7 +94,7 @@ These lessons will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
    Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjk1NTI5MSw5MzAyOTg0MjksNDI1OD
+eyJoaXN0b3J5IjpbLTk4MDE1MjM0Myw5MzAyOTg0MjksNDI1OD
 UwNDI2LDE1NzY0MTkwMDYsLTE3ODAyNDQxNjIsLTE1NjczNDYw
 MiwzMzE1NzI5NTIsMTQxNzMxOTg2OCwtNDQ3MjA5ODI5LDE5NT
 QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
