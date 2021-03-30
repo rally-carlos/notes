@@ -92,9 +92,9 @@ This will guide adjustments to the roadmap:
 
 # Limitations
 
- - One runner / instance type per Github App. [https://github.com/philips-labs/terraform-aws-github-runner/issues/73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)**
+ - One runner / instance type per Github App. [https://github.com/philips-labs/terraform-aws-github-runner/issues/73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDYyOTk5OCwzMjg1MjcyNzksMjEyND
+eyJoaXN0b3J5IjpbLTc4NjEzMjU2MiwzMjg1MjcyNzksMjEyND
 U3MTgwNiwxMTE3MDgzMTIsMjE0NzE4NDQxMSwxNDk0MjY3NTYx
 LC0xMTEyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX
 0=
