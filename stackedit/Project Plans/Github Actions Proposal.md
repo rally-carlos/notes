@@ -3,7 +3,7 @@
 
 A CI platform should also be scalable and a consistent experience with best-practices across an organization. The infrastructure should be an implementation detail that users are unconcerned about (outside infrastructure-specific builds, i.e., Docker).
 
-Currently, a team's build needs require customizations that are tightly coupled to the build server (i.e., Jenkins plugins). To support this need, each team is free to customize their build server. Snowflake build servers make support difficult and introduces security concerns. Excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themselves or innovating and maturing the CI platform. More recently, teams are beginning to adopt alternative CI platforms on their own, signifying a demand for a new solution.
+Currently, a team's build needs require tightly coupled customizations to the build server (i.e., Jenkins plugins). To support this need, each team is free to customize their build server. Snowflake build servers make support difficult and introduces security concerns. Excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themselves or innovating and maturing the CI platform. More recently, teams are beginning to adopt alternative CI platforms on their own, signifying a demand for a new solution.
 
 Github Action provides a homogenous CI platform loosely coupled from build-level modification (actions vs. plugins).
 
@@ -94,7 +94,7 @@ This will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODE2MzU3MCwxNTc2NDE5MDA2LC0xNz
+eyJoaXN0b3J5IjpbLTQ1OTczNTM4NSwxNTc2NDE5MDA2LC0xNz
 gwMjQ0MTYyLC0xNTY3MzQ2MDIsMzMxNTcyOTUyLDE0MTczMTk4
 NjgsLTQ0NzIwOTgyOSwxOTU0MDc3MDE4LDEyNzY4MTQwMzQsLT
 EzNDk0MjA5MThdfQ==
