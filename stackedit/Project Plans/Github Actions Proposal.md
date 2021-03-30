@@ -7,7 +7,7 @@ Currently, supporting a team's build needs require tightly coupled customization
 
 Github Action provides a homogenous CI platform loosely coupled from build-level modification (actions vs. plugins).
 
-# Vission
+# Vision
 
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
 	Amount TBD
@@ -94,8 +94,9 @@ These lessons will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
    Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzQzMzMxLDkzMDI5ODQyOSw0MjU4NT
-A0MjYsMTU3NjQxOTAwNiwtMTc4MDI0NDE2MiwtMTU2NzM0NjAy
-LDMzMTU3Mjk1MiwxNDE3MzE5ODY4LC00NDcyMDk4MjksMTk1ND
-A3NzAxOCwxMjc2ODE0MDM0LC0xMzQ5NDIwOTE4XX0=
+eyJoaXN0b3J5IjpbLTExMjg3OTk2NTQsMTYyNzQzMzMxLDkzMD
+I5ODQyOSw0MjU4NTA0MjYsMTU3NjQxOTAwNiwtMTc4MDI0NDE2
+MiwtMTU2NzM0NjAyLDMzMTU3Mjk1MiwxNDE3MzE5ODY4LC00ND
+cyMDk4MjksMTk1NDA3NzAxOCwxMjc2ODE0MDM0LC0xMzQ5NDIw
+OTE4XX0=
 -->
