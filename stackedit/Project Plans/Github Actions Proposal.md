@@ -5,7 +5,7 @@ A CI platform should also be scalable and a consistent experience with best-prac
 
 Currently, supporting a team's build needs require tightly coupled customizations to the build server (i.e., Jenkins plugins), which results in each team free to customize their build server. Snowflake build servers makes support difficult and introduces security concerns. Excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themselves or innovating and maturing the CI platform. More recently, teams are beginning to adopt alternative CI platforms on their own, signifying a demand for a new solution.
 
-Github Action provides a homogenous CI platform loosely coupled from build-level modification (actions vs. plugins).
+Github Action provides a homogenous CI platform loosely coupled from build-level modification (actions vs. plugins). One-to-one feature parity with the current CI platform is not the intention of Github Actions. Github Actions’ initial adoption plan includes smaller scoped tests, such as lint and unit tests, and CI workflows designed with Github Actions in mind, i.e. FluxCD.
 
 # Vision
 
@@ -94,9 +94,9 @@ These lessons will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
    Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDE2MzAzMCwtMjA4NDUyNzY5MiwxNj
-I3NDMzMzEsOTMwMjk4NDI5LDQyNTg1MDQyNiwxNTc2NDE5MDA2
-LC0xNzgwMjQ0MTYyLC0xNTY3MzQ2MDIsMzMxNTcyOTUyLDE0MT
-czMTk4NjgsLTQ0NzIwOTgyOSwxOTU0MDc3MDE4LDEyNzY4MTQw
-MzQsLTEzNDk0MjA5MThdfQ==
+eyJoaXN0b3J5IjpbMTMyOTQwMjg5LC05NDAxNjMwMzAsLTIwOD
+Q1Mjc2OTIsMTYyNzQzMzMxLDkzMDI5ODQyOSw0MjU4NTA0MjYs
+MTU3NjQxOTAwNiwtMTc4MDI0NDE2MiwtMTU2NzM0NjAyLDMzMT
+U3Mjk1MiwxNDE3MzE5ODY4LC00NDcyMDk4MjksMTk1NDA3NzAx
+OCwxMjc2ODE0MDM0LC0xMzQ5NDIwOTE4XX0=
 -->
