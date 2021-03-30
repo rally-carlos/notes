@@ -10,6 +10,8 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
  - Enable CI platform maturity and invoation by reducing maintance and support (free up CI platform to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244)).
 	- Decrease support time from 8h/week to 4/week (though initially this may be higher)
 	- Decrease maintance from 6h/month to 2h/month
+	- Reduce team provisioning time to 0
+	- Reduce team specific support questions to 0
  - Decrease in costs with enphemeral infrastracture and no additional vendor licensing.
     Exact current costs are unknown. GH Action runner infrastructure is more efficent and not persistant (besides such things as AMIs and Lambdas).
 
@@ -36,19 +38,12 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
 
 # Proposed Solution
 
-## On-prem Github Action runners
-
-Create:
- - a more lossely coupled CI platform to process.
- - homogenous platform
-
 ### K8s vs EC2
 EC2 over K8s is able to "stay quite close to the current GitHub approach". Also, EC2 will more easiliy support more use cases,  such as Docker and avoid DinD.
 
 # Hypotheses
 
-- Reduce team provisioning time to 0
-- Reduce team specific support questions to 0
+
 
 # Leasons to Learn
 
@@ -94,6 +89,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTEzNywtNDQ3MjA5ODI5LDE5NTQwNz
-cwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbLTE0NTIwNjI5ODgsLTQ0NzIwOTgyOSwxOT
+U0MDc3MDE4LDEyNzY4MTQwMzQsLTEzNDk0MjA5MThdfQ==
 -->
