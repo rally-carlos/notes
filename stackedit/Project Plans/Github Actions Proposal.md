@@ -47,8 +47,8 @@ Github Action provides a homogenous CI platform loosely coupled from build-level
 On-prem runners places the CI execution inside Rally VPCs where Ops can control network access and ACL/IAMs roles. Furthermore, concerns about moving data outside of Rally are mitigated.
 
 ## K8s vs. EC2
-
-EC2 over K8s can "stay quite close to the current GitHub approach." Also, EC2 will more easily support more use cases, such as Docker and avoid DinD.
+[enter link description here](s)
+EC2 over K8s can "stay quite close to the current GitHub approach" ([philips-labs/terraform-aws-github-runner/blob/develop/README.md#motivation](https://github.com/philips-labs/terraform-aws-github-runner/blob/develop/README.md#motivation)) Also, EC2 will more easily support more use cases, such as Docker and avoid DinD.
 
 # Risks
 
@@ -94,8 +94,8 @@ This will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY0NDI3NTQsLTE3ODAyNDQxNjIsLT
-E1NjczNDYwMiwzMzE1NzI5NTIsMTQxNzMxOTg2OCwtNDQ3MjA5
-ODI5LDE5NTQwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF
-19
+eyJoaXN0b3J5IjpbOTgyNDczMTE2LC0xNzgwMjQ0MTYyLC0xNT
+Y3MzQ2MDIsMzMxNTcyOTUyLDE0MTczMTk4NjgsLTQ0NzIwOTgy
+OSwxOTU0MDc3MDE4LDEyNzY4MTQwMzQsLTEzNDk0MjA5MThdfQ
+==
 -->
