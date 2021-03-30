@@ -4,9 +4,10 @@ A CI platform infrastructure should be an implentation detail that users are unc
 
 Github Action provide a homogenous CI platform that is loosly coupled from build infrastructure modification.
 
-A homogenous CI platform with On-prem Github Action runners will gain Rally the benefits
+# Vission
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
- - Increase inovation from CI platform team (by reducing maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
+   Amount TBD
+ - Enable CI platform team (by reducing maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
  - Decrease in costs  (with enphemeral infrastracture and no additional vendor licensing)
 
 # Business Problem
@@ -108,6 +109,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjQ4NzcyMiwtNDQ3MjA5ODI5LDE5NT
-QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbLTIwMDgyNzg2MjgsLTQ0NzIwOTgyOSwxOT
+U0MDc3MDE4LDEyNzY4MTQwMzQsLTEzNDk0MjA5MThdfQ==
 -->
