@@ -2,7 +2,7 @@
 
 A CI platform infrastructure should be an implentation detail that users are unconcerned about. It should also be a scalable consistant experiance with best-practices across an organization. Currently, excessive time is spent troubleshooting and maintaining build servers rather than troubleshooting the builds themseles or inovating and maturing the CI platform. A team's build needs require unique customization that are tightly couple to the build server (i.e. Jenkins pluggins). This need results in each team being free to customize their build server. This make support more difficult and introduce security concerns. More recently, teams are beinging to adopt alternative CI platforms on their own signifing, a demand for a new solution.
 
-Github Action provide a homogenous CI platform that is loosly coupled from build infrastructure modification.
+Github Action provide a homogenous CI platform that is loosly coupled from build level modification (actions vs plugins).
 
 # Vission
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
@@ -11,7 +11,7 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
 	- Decrease support time from 8h/week to 4/week (though initially this may be higher)
 	- Decrease maintance from 6h/month to 2h/month
 	- Reduce team provisioning time to 0
-	- Reduce team specific support questions to 0 (does not elimate platform level inqueries)inquiries
+	- Reduce team specific support questions to 0 (more focus on platform level inquiries)
  - Decrease in costs with enphemeral infrastracture and no additional vendor licensing.
     Exact current costs are unknown. GH Action runner infrastructure is more efficent and not persistant (besides such things as AMIs and Lambdas).
 
@@ -36,7 +36,7 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
  - Reduce platform maintance (as enviroment is enphemeral)
  - Increase in CI platform team reputation
 
-# Proposed Solution
+# Design Notes
 
 ### K8s vs EC2
 EC2 over K8s is able to "stay quite close to the current GitHub approach". Also, EC2 will more easiliy support more use cases,  such as Docker and avoid DinD.
@@ -89,6 +89,6 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTExNzg3MjMsLTQ0NzIwOTgyOSwxOT
-U0MDc3MDE4LDEyNzY4MTQwMzQsLTEzNDk0MjA5MThdfQ==
+eyJoaXN0b3J5IjpbMTYyNzEzODkzOSwtNDQ3MjA5ODI5LDE5NT
+QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
 -->
