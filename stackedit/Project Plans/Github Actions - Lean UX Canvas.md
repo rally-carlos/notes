@@ -16,8 +16,6 @@
  - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
  - Decrease in costs  (with enphemeral infrastracture and no vendor licensing)
 
-
-
 # Users and Customers
 
  - CI / Jenkins Platform Engineers
@@ -30,15 +28,7 @@
 
  - Increase crowd sourced support (with a homogenous platform)
  - Reduce CI/build part of cycletime (remove current queue and agent issues)
-
-## Development / Product Engineers
-
  - Immediate team onboarding (with a single, homogenous platform)
-
-## Ops Engineers
- - Faster onboarding and
- - Less support
- 
 
 ## CI / Jenkins Platform Engineers
 
@@ -84,7 +74,7 @@ This will guide adjustments to the roadmap:
  - Publicize / demo to operations teams
  - Start developing usage/best-practices (recommended happy path) guides
 
-## Phase 3 - Build Service
+## Phase 3 - Build A Service
 
  - TBD (HelloPlay?)
 
@@ -97,7 +87,7 @@ This will guide adjustments to the roadmap:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDU3MTgwNiwxMTE3MDgzMTIsMjE0Nz
-E4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC0xNDQyNzc3
-Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbMzI4NTI3Mjc5LDIxMjQ1NzE4MDYsMTExNz
+A4MzEyLDIxNDcxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0
+MSwtMTQ0Mjc3NzY5OSwtMTUyNTcyMzAxMV19
 -->
