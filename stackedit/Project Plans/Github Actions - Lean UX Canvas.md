@@ -10,7 +10,7 @@
 
  - Teams are quick to blame build server over investigating the build itself.
  
-# Business Outcome
+# Business Outcomes
 
  - Reduce cycletime (with more focus on troubleshooting builds over build server)
  - Increase inovation from CI platform team (reduce maintance and support; free to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244))
@@ -103,8 +103,9 @@ This will guide adjustments to the roadmap:
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODIxOTM5MSwtMTM0OTQyMDkxOCwtMT
-ExMzA4OTcyNCwzMjg1MjcyNzksMjEyNDU3MTgwNiwxMTE3MDgz
-MTIsMjE0NzE4NDQxMSwxNDk0MjY3NTYxLC0xMTEyODY2OTQxLC
-0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX0=
+eyJoaXN0b3J5IjpbMTU1NjUzNjc3NiwtODM4MjE5MzkxLC0xMz
+Q5NDIwOTE4LC0xMTEzMDg5NzI0LDMyODUyNzI3OSwyMTI0NTcx
+ODA2LDExMTcwODMxMiwyMTQ3MTg0NDExLDE0OTQyNjc1NjEsLT
+ExMTI4NjY5NDEsLTE0NDI3Nzc2OTksLTE1MjU3MjMwMTFdfQ==
+
 -->
