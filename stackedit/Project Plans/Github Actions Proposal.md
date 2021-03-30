@@ -95,6 +95,7 @@ This will guide adjustments to the roadmap:
 # Limitations
 
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
+ - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits). Though this is not expected to be
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzg1ODcyMSwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbMTIxNDM3MTY2NiwtMTM0OTQyMDkxOF19
 -->
