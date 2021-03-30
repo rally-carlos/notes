@@ -54,21 +54,20 @@ EC2 over K8s can "stay quite close to the current GitHub approach." Also, EC2 wi
 
 # Risks
 
-- Accessing secrets from Vault does not have a clear path/solution.
+ - Accessing secrets from Vault does not have a clear path/solution.
 
 # Limitations
 
-- One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
-
-- General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
+ - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
+ - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 
 # Leasons to Learn
 
 This will guide adjustments to the roadmap:
 
-- How will users actually leverage this?
-- Features required / prioritize.
-- Rally's best practices and usage patterns
+ - How will users actually leverage this?
+	- Features required / prioritize.
+	- Rally's best practices and usage patterns
 
 # Roadmap
 
@@ -97,7 +96,7 @@ This will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjczNDYwMiwzMzE1NzI5NTIsMTQxNz
-MxOTg2OCwtNDQ3MjA5ODI5LDE5NTQwNzcwMTgsMTI3NjgxNDAz
-NCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbLTIwMDQ1MzM4NTQsLTE1NjczNDYwMiwzMz
+E1NzI5NTIsMTQxNzMxOTg2OCwtNDQ3MjA5ODI5LDE5NTQwNzcw
+MTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
 -->
