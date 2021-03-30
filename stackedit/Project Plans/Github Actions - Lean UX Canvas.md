@@ -45,6 +45,8 @@ Create:
  - a more lossely coupled CI platform to process.
  - homogenous platform
 
+### K8s vs EC2
+
 # Hypotheses
 
 - Reduce team provisioning time to 0
@@ -87,7 +89,8 @@ This will guide adjustments to the roadmap:
 
  - Accessing secrets from Vault
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NTI3Mjc5LDIxMjQ1NzE4MDYsMTExNz
-A4MzEyLDIxNDcxODQ0MTEsMTQ5NDI2NzU2MSwtMTExMjg2Njk0
-MSwtMTQ0Mjc3NzY5OSwtMTUyNTcyMzAxMV19
+eyJoaXN0b3J5IjpbLTc3NDY5MDcyNSwzMjg1MjcyNzksMjEyND
+U3MTgwNiwxMTE3MDgzMTIsMjE0NzE4NDQxMSwxNDk0MjY3NTYx
+LC0xMTEyODY2OTQxLC0xNDQyNzc3Njk5LC0xNTI1NzIzMDExXX
+0=
 -->
