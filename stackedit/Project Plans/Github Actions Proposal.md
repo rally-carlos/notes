@@ -59,9 +59,9 @@ EC2 over K8s can "stay quite close to the current GitHub approach" ([philips-lab
  - One runner / instance type per Github App. [philips-labs/terraform-aws-github-runner#73](https://github.com/philips-labs/terraform-aws-github-runner/issues/73)
  - General [usage limits](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners#usage-limits).
 
-# Leasons to Learn
+# Lessons to Learn
 
-These leasons will guide adjustments to the roadmap:
+These lessons will guide adjustments to the roadmap:
 
  - How will users leverage this?
 	- Features required / prioritize.
@@ -94,8 +94,8 @@ These leasons will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzYyMTIxNCwxNTc2NDE5MDA2LC0xNz
-gwMjQ0MTYyLC0xNTY3MzQ2MDIsMzMxNTcyOTUyLDE0MTczMTk4
-NjgsLTQ0NzIwOTgyOSwxOTU0MDc3MDE4LDEyNzY4MTQwMzQsLT
-EzNDk0MjA5MThdfQ==
+eyJoaXN0b3J5IjpbNDI1ODUwNDI2LDE1NzY0MTkwMDYsLTE3OD
+AyNDQxNjIsLTE1NjczNDYwMiwzMzE1NzI5NTIsMTQxNzMxOTg2
+OCwtNDQ3MjA5ODI5LDE5NTQwNzcwMTgsMTI3NjgxNDAzNCwtMT
+M0OTQyMDkxOF19
 -->
