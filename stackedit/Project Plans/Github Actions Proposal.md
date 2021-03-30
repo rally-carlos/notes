@@ -61,9 +61,9 @@ EC2 over K8s can "stay quite close to the current GitHub approach" ([philips-lab
 
 # Leasons to Learn
 
-This will guide adjustments to the roadmap:
+These leasons will guide adjustments to the roadmap:
 
- - How will users actually leverage this?
+ - How will users leverage this?
 	- Features required / prioritize.
 	- Rally's best practices and usage patterns
 
@@ -94,8 +94,8 @@ This will guide adjustments to the roadmap:
  - Automate reprovisioning of "dummy" runner.
 	Note: A “dummy” self-hosted runner will need to be periodically recreated. It is a requirement to trigger events, even though it is not actually used. “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU5Nzk0NjksMTU3NjQxOTAwNiwtMT
-c4MDI0NDE2MiwtMTU2NzM0NjAyLDMzMTU3Mjk1MiwxNDE3MzE5
-ODY4LC00NDcyMDk4MjksMTk1NDA3NzAxOCwxMjc2ODE0MDM0LC
-0xMzQ5NDIwOTE4XX0=
+eyJoaXN0b3J5IjpbMTUyNzYyMTIxNCwxNTc2NDE5MDA2LC0xNz
+gwMjQ0MTYyLC0xNTY3MzQ2MDIsMzMxNTcyOTUyLDE0MTczMTk4
+NjgsLTQ0NzIwOTgyOSwxOTU0MDc3MDE4LDEyNzY4MTQwMzQsLT
+EzNDk0MjA5MThdfQ==
 -->
