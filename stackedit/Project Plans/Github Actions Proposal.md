@@ -5,6 +5,7 @@ A CI platform infrastructure should be an implentation detail that users are unc
 Github Action provide a homogenous CI platform that is loosly coupled from build level modification (actions vs plugins).
 
 # Vission
+
  - Reduce cycletime (by focusing more on troubleshooting builds over build server)
    Amount TBD
  - Enable CI platform maturity and invoation by reducing maintance and support (free up CI platform to build a better "Space Elevator" [ref](https://docs.google.com/presentation/d/17XkhdQtP1ThbOH_C8JYm0Zygsv0bhpPWIjnQX8BMeM4/edit#slide=id.gaad5158c7d_3_244)).
@@ -39,9 +40,11 @@ Github Action provide a homogenous CI platform that is loosly coupled from build
 # Design Notes
 
 ## On-Prem vs SasS
-On-prem runners places the execution inside Rally VPCs where network access and ACL/IAMs roles can be controlled. Furthermore, 
+
+On-prem runners places the execution inside Rally VPCs where network access and ACL/IAMs roles can be controlled. Furthermore, conerns about moving data out of Rally is mitigated.
 
 ## K8s vs EC2
+
 EC2 over K8s is able to "stay quite close to the current GitHub approach". Also, EC2 will more easiliy support more use cases,  such as Docker and avoid DinD.
 
 # Risks
@@ -89,6 +92,7 @@ This will guide adjustments to the roadmap:
    Note: A “dummy” self-hosted runner will need to be maintained. It is required to trigger events, but will not actually be used.”  “A self-hosted runner is automatically removed from GitHub if it has not connected to GitHub Actions for more than 30 days.” -- [https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners](https://docs.github.com/en/free-pro-team@latest/actions/hosting-your-own-runners/about-self-hosted-runners#about-self-hosted-runners)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzMxOTg2OCwtNDQ3MjA5ODI5LDE5NT
-QwNzcwMTgsMTI3NjgxNDAzNCwtMTM0OTQyMDkxOF19
+eyJoaXN0b3J5IjpbMzMxNTcyOTUyLDE0MTczMTk4NjgsLTQ0Nz
+IwOTgyOSwxOTU0MDc3MDE4LDEyNzY4MTQwMzQsLTEzNDk0MjA5
+MThdfQ==
 -->
