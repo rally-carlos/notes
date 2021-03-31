@@ -21,7 +21,7 @@
 
 [How the TCP is created](https://wiki.audaxhealth.com/x/bdDKBg)
 
- - [2Q21 Technnology](https://docs.google.com/document/d/1MVxzmsbXjQ_VQKHEHiVlPBAKUGtAOhxeoOuc4flm2Wo/edit?usp=sharing)
+ - [2Q21 Technnology Capability Plan](https://docs.google.com/document/d/1MVxzmsbXjQ_VQKHEHiVlPBAKUGtAOhxeoOuc4flm2Wo/edit?usp=sharing)
  - [1Q21 Technology Capability Plan](https://docs.google.com/document/d/1X3mbn9aZQ0w6XU6dkIVTQpXjQ0N7o1Ri9YdOKC2Qsls/edit?usp=sharing)
 
 ## Ops
@@ -34,8 +34,9 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQwMzMyMTgsMTIwNzM3MzgyNSwxNT
-EwMjA2MTUzLDEyNDMwNzM4MTIsLTY1NTMwNjk1LC01OTE2NjI2
-NiwxNzY4NDkxMTMwLDIwMjU1MTU4NjMsLTUzODMzOTk5OSwtOT
-Q0NDIwMjIyLDMyMjcxNjkwOSw5ODU4NjA0MjNdfQ==
+eyJoaXN0b3J5IjpbNDQ1ODExNzkxLC0xMDk0MDMzMjE4LDEyMD
+czNzM4MjUsMTUxMDIwNjE1MywxMjQzMDczODEyLC02NTUzMDY5
+NSwtNTkxNjYyNjYsMTc2ODQ5MTEzMCwyMDI1NTE1ODYzLC01Mz
+gzMzk5OTksLTk0NDQyMDIyMiwzMjI3MTY5MDksOTg1ODYwNDIz
+XX0=
 -->
