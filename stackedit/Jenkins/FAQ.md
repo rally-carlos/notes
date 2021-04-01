@@ -7,6 +7,9 @@ Well a lot of things can be happening. Sometimes something on agent gets curupte
 ## Waiting for an executor for a long time
 
 ## Why is Jenkins is failing on my Neptune deploy?
+
+## How do I make changes to a team controller? Who is my admin?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTU4ODYxMSwtMTc0NzE0MjQzNF19
+eyJoaXN0b3J5IjpbLTEwODYyNTEzMDYsMTM0OTU4ODYxMSwtMT
+c0NzE0MjQzNF19
 -->
