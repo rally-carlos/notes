@@ -8,8 +8,8 @@ Well a lot of things can be happening. Sometimes something on agent gets curupte
 
 ## Why is Jenkins is failing on my Neptune deploy?
 
-## How do I make changes to a team controller? Who is my admin?
+## How do I make changes to a Jenkins team controller? Who is my admin?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYyNTEzMDYsMTM0OTU4ODYxMSwtMT
-c0NzE0MjQzNF19
+eyJoaXN0b3J5IjpbMjc4NDE2ODAwLDEzNDk1ODg2MTEsLTE3ND
+cxNDI0MzRdfQ==
 -->
