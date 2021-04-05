@@ -1,8 +1,10 @@
 # Balanced Scorecard
 
  - [Engineering Balanced Scorecard - All Hands](https://docs.google.com/presentation/d/1-pIkwrFE3Yx1lnyFT1p6hrSf1gCkicGPb48nO_3LcEI/edit?usp=sharing) (slides)
+## 2021
+ - (https://docs.google.com/spreadsheets/d/150FoqFnJ5ffIhsbMXZ7wEJbtPoy965AMxQDaHBev3Wg/edit)
  - [Balance Scorecard Rollup](https://docs.google.com/spreadsheets/d/1cruIxZu6uiRnAVWKwU43dfKtAkV3oc1FNjWEqTBpROg/edit#gid=1951531975)
-	 - (https://docs.google.com/spreadsheets/d/1i5SSAB469GvgxQmOGInJmXirb1KRuE_btQkrju-J-y4/edit)
+	 - [Excellence Bar Scorecards](https://docs.google.com/spreadsheets/d/1i5SSAB469GvgxQmOGInJmXirb1KRuE_btQkrju-J-y4/edit)
 
 ## [Technology Balanced Scorecard: 2021 Themes and Objectives](https://wiki.audaxhealth.com/x/oA0OBg)
  - [BSC Metrics](https://wiki.audaxhealth.com/x/IlgfBw)
@@ -36,9 +38,9 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjE4MDU0NSw0NDU4MTE3OTEsLTEwOT
-QwMzMyMTgsMTIwNzM3MzgyNSwxNTEwMjA2MTUzLDEyNDMwNzM4
-MTIsLTY1NTMwNjk1LC01OTE2NjI2NiwxNzY4NDkxMTMwLDIwMj
-U1MTU4NjMsLTUzODMzOTk5OSwtOTQ0NDIwMjIyLDMyMjcxNjkw
-OSw5ODU4NjA0MjNdfQ==
+eyJoaXN0b3J5IjpbNTAxMDY1MjEwLDQ0NTgxMTc5MSwtMTA5ND
+AzMzIxOCwxMjA3MzczODI1LDE1MTAyMDYxNTMsMTI0MzA3Mzgx
+MiwtNjU1MzA2OTUsLTU5MTY2MjY2LDE3Njg0OTExMzAsMjAyNT
+UxNTg2MywtNTM4MzM5OTk5LC05NDQ0MjAyMjIsMzIyNzE2OTA5
+LDk4NTg2MDQyM119
 -->
