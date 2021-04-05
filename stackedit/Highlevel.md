@@ -1,6 +1,10 @@
 # Balanced Scorecard
 
  - [Engineering Balanced Scorecard - All Hands](https://docs.google.com/presentation/d/1-pIkwrFE3Yx1lnyFT1p6hrSf1gCkicGPb48nO_3LcEI/edit?usp=sharing) (slides)
+ - [Documents, Processes, References](https://wiki.audaxhealth.com/x/og4OBg)
+	 - [2021 BSC Metric Development & Management](https://docs.google.com/presentation/d/1-4TSxcw9p54Xx3Zp0nk1d_LyVCxZo1YRFHl_qIpvSe4/edit?usp=sharing) (slides)
+	 - [BSC Training](https://docs.google.com/presentation/d/1rCWR_UedwoTAubVl-vK8ni4LIj_dbgH3EY03DmrqrJU/edit?usp=sharing) (Slides)
+
 ## 2021
  - [KR Summary & Status Report](https://docs.google.com/spreadsheets/d/150FoqFnJ5ffIhsbMXZ7wEJbtPoy965AMxQDaHBev3Wg/edit)
  - [Balance Scorecard Rollup](https://docs.google.com/spreadsheets/d/1cruIxZu6uiRnAVWKwU43dfKtAkV3oc1FNjWEqTBpROg/edit#gid=1951531975) (spreadsheet)
@@ -9,9 +13,7 @@
 ### [Technology Balanced Scorecard: 2021 Themes and Objectives](https://wiki.audaxhealth.com/x/oA0OBg)
  - [BSC Metrics](https://wiki.audaxhealth.com/x/IlgfBw)
 	 - [2021 Technology Balanced Scorecard](https://docs.google.com/spreadsheets/d/1V8siruMlwb_f9aT9JDUIr5MwvvASoCLTmkxHN-28K7o/edit?usp=sharing) (spreadsheet)
- - [Documents, Processes, References](https://wiki.audaxhealth.com/x/og4OBg)
-	 - [2021 BSC Metric Development & Management](https://docs.google.com/presentation/d/1-4TSxcw9p54Xx3Zp0nk1d_LyVCxZo1YRFHl_qIpvSe4/edit?usp=sharing) (slides)
-	 - [BSC Training](https://docs.google.com/presentation/d/1rCWR_UedwoTAubVl-vK8ni4LIj_dbgH3EY03DmrqrJU/edit?usp=sharing) (Slides)
+
 
 # [Rally Technology Services](https://wiki.audaxhealth.com/x/zR-OBQ)
 
@@ -37,9 +39,9 @@
  - [2021-01 Rally Ops All Hands](https://docs.google.com/presentation/d/1y2hgtr_9ByDm_Pnw4ZSk6fbs2w33BK6K3_YZq6isMTo/edit?usp=sharing) (slides)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTAxMDgxOCw0NDU4MTE3OTEsLTEwOT
-QwMzMyMTgsMTIwNzM3MzgyNSwxNTEwMjA2MTUzLDEyNDMwNzM4
-MTIsLTY1NTMwNjk1LC01OTE2NjI2NiwxNzY4NDkxMTMwLDIwMj
-U1MTU4NjMsLTUzODMzOTk5OSwtOTQ0NDIwMjIyLDMyMjcxNjkw
-OSw5ODU4NjA0MjNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjg4Mzk3NzAsMTc4OTAxMDgxOCw0ND
+U4MTE3OTEsLTEwOTQwMzMyMTgsMTIwNzM3MzgyNSwxNTEwMjA2
+MTUzLDEyNDMwNzM4MTIsLTY1NTMwNjk1LC01OTE2NjI2NiwxNz
+Y4NDkxMTMwLDIwMjU1MTU4NjMsLTUzODMzOTk5OSwtOTQ0NDIw
+MjIyLDMyMjcxNjkwOSw5ODU4NjA0MjNdfQ==
 -->
