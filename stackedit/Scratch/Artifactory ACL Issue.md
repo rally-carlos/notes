@@ -21,15 +21,16 @@ docker.werally.in/ubuntu latest e17b56e5200a 5 years ago 188MB
 ### Impact
 
 * **Production stability**
-* The artifact can be unexpectedly changed. That would be difficult to discover and resolve during a TPS.
+  * The artifact can be unexpectedly changed. That would be difficult to discover and resolve during a TPS.
 * **Security posture**
-* Repositories would no longer properly update and miss patches.
-* There is a large blast radius as a bad actor can update any artifact such as a "base" image.
+  * Repositories would no longer properly update and miss patches.
+  * There is a large blast radius as a bad actor can update any artifact such as a "base" image.
 
 ## Potential Solutions
 
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNjk3MjIxLDI3NzU2MjQ0NF19
+eyJoaXN0b3J5IjpbLTExODQ2Nzk1NDcsOTcxNjk3MjIxLDI3Nz
+U2MjQ0NF19
 -->
