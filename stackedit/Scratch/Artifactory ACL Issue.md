@@ -19,12 +19,13 @@ ubuntu                                           latest    7e0aa2d69a15   9 days
 docker.werally.in/ubuntu                         latest    e17b56e5200a   5 years ago    188MB
 ```
 
-At a m
+If repositories are not longer updating correctly the result is that patches, including security, are not longer being recieved.
+This can h
 
 ## Potential Solutions
 
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTg2NTA5N119
+eyJoaXN0b3J5IjpbMTAyNTczNjk2XX0=
 -->
