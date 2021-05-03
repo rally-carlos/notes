@@ -6,7 +6,7 @@ Inconsistencies
 
 There is unexpected behavior on some artifacts when pulling from Rally's Artifactory's virtual repos. The expected behavior is to update the mirror/cache based on what is available in the official public repo. What is actually occuring is that Rally's Artifactory is serving custom artifacts that are inject into these virutal repos.
 
-Anyone engineer can injecte artificats and change tags in any repo. using a single set of credientials for all engineers and not having any segmentation between teams.
+Anyone engineer can inject artificats and change tags in any repo. This is possible because Rally uses a single set of credientials for all engineers and not having any segmentation between teams. This allows anyone to push
 
 ### Example - Docker
 
@@ -25,5 +25,5 @@ docker.werally.in/ubuntu                         latest    e17b56e5200a   5 year
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzAwNzk2M119
+eyJoaXN0b3J5IjpbLTE5NDIyNDc3NThdfQ==
 -->
