@@ -19,13 +19,14 @@ ubuntu                                           latest    7e0aa2d69a15   9 days
 docker.werally.in/ubuntu                         latest    e17b56e5200a   5 years ago    188MB
 ```
 
-If repositories are not longer updating correctly the result is that patches, including security, are not longer being recieved.
-This can h
+### Impacts
+Repositories are not longer updating correctly the result is that patches, including security, are not longer being recieved.
+* This can impact production and would be difficult to discover and resolve durning a TPS.
 
 ## Potential Solutions
 
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTczNjk2XX0=
+eyJoaXN0b3J5IjpbLTQ4NzM4MzgzN119
 -->
