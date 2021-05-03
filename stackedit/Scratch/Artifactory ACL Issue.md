@@ -8,11 +8,7 @@ There is unexpected behavior on some artifacts when pulling from Rally's Artifac
 
 Anyone engineer can inject artificats and change tags in any repository, acidentally or maliciously. A consumer of a repository with an injected artifact will no longer be recieving the expected actifact. This is possible because Rally uses a single set of credientials for all engineers and not having any segmentation between teams.
 
-
-
-
-
-### Example - Docker
+In a repository that has had a an artifact pushed to it that matches an up stream tag, Artifactory will not longer look at the public repo, as it assumes overriding the tag was intential.Example - Docker
 
 ```
 ❯ docker pull docker.io/ubuntu
@@ -29,5 +25,5 @@ docker.werally.in/ubuntu                         latest    e17b56e5200a   5 year
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTAwNTYyMl19
+eyJoaXN0b3J5IjpbMTkyNTg4Nzk0NV19
 -->
