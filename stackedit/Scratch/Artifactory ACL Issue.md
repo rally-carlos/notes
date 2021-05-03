@@ -1,7 +1,7 @@
 
 Inconsistencies
 
-There is unexpected behavior on some artifacts when pulling from Rally's Artifactory's virtual repos. The expected behavior is to update the mirror/cache based on 
+There is unexpected behavior on some artifacts when pulling from Rally's Artifactory's virtual repos. The expected behavior is to update the mirror/cache based on what is available in the official public repo. What is actually occuring is that Rally's Artifactory is serving artifacts that were inje
 ```
 ❯ docker pull docker.io/ubuntu
 ...
@@ -12,5 +12,5 @@ ubuntu                                           latest    7e0aa2d69a15   9 days
 docker.werally.in/ubuntu                         latest    e17b56e5200a   5 years ago    188MB
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDM5MzI4NV19
+eyJoaXN0b3J5IjpbLTE2MDMyODE1MTddfQ==
 -->
