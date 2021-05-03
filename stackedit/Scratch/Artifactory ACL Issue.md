@@ -1,5 +1,3 @@
-
-Inconsistencies
 # Artifactory ACL Issue
 
 ## Problem
@@ -32,5 +30,5 @@ docker.werally.in/ubuntu                         latest    e17b56e5200a   5 year
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzgzNzMzNV19
+eyJoaXN0b3J5IjpbMjc3NTYyNDQ0XX0=
 -->
