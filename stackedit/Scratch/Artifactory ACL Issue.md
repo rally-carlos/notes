@@ -20,10 +20,11 @@ docker.werally.in/ubuntu                         latest    e17b56e5200a   5 year
 ```
 
 ### Impacts
-* Production impacting
+* Production stability
    The actifiact can be unexpectedly changed. That would be difficult to discover and resolve durning a TPS.
- 
-* Repositories are not longer updating correctly the result is that patches, including security, are not longer being recieved.
+* Security posture
+  * Repositories would not longer update correctly and miss patches.
+  * 
 
 
 ## Potential Solutions
@@ -31,5 +32,5 @@ docker.werally.in/ubuntu                         latest    e17b56e5200a   5 year
 - Segmented repositories, e.g. based on teams, solutions, etc
 - Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjk2NDE1NV19
+eyJoaXN0b3J5IjpbMTM5MTIyNzc3OV19
 -->
