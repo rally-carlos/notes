@@ -1,8 +1,10 @@
 
 Inconsistencies
 # Artifactory ACL Issue
+
 There is unexpected behavior on some artifacts when pulling from Rally's Artifactory's virtual repos. The expected behavior is to update the mirror/cache based on what is available in the official public repo. What is actually occuring is that Rally's Artifactory is serving custom artifacts that were inject into these virutal repos.
 
+## ProblemDemonstation - Docker
 ```
 ❯ docker pull docker.io/ubuntu
 ...
@@ -15,7 +17,8 @@ docker.werally.in/ubuntu                         latest    e17b56e5200a   5 year
 
 ## Potential Solutions
 
-- Segmented repositories, i.e.
+- Segmented repositories, e.g. based on teams, solutions, etc
+- Gate artifacts between development and production repositories.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTYyODQwNV19
+eyJoaXN0b3J5IjpbMTU5NDE3OTYwXX0=
 -->
