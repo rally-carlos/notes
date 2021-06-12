@@ -6,7 +6,7 @@ Automate commit to release.
 
 ## Problem
 
-We want dev teams to do CI/CD with the GitOps. We should adopt such practices and workflows prior to prescribing them to other teams
+We want dev teams to do CI/CD with the GitOps. We should adopt such practices and workflows prior to prescribing them to other teams.
 
 ## Requirements
 
@@ -15,5 +15,5 @@ We want dev teams to do CI/CD with the GitOps. We should adopt such practices an
     - Automate release on merge (version can be determine by commits, i.e. fix vs docs) 
 - Bulldozer to merge CI created PRs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzMjc1OTk3XX0=
+eyJoaXN0b3J5IjpbMjAyMTY5MDU1OV19
 -->
