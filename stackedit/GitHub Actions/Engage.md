@@ -10,8 +10,8 @@ versioning:
  - libs need semantic versioning
  - services need continous versioning
 
-Chris is currently using release/versioned branches to support multiple version
+Chris is currently using release/versioned branches to support multiple versions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDI1Mjg0MSwtNDY0NTEzNDQzXX0=
+eyJoaXN0b3J5IjpbMTI1NjgzNTk1MCwtNDY0NTEzNDQzXX0=
 -->
