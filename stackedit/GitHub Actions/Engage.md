@@ -12,9 +12,11 @@ versioning:
 
 Chris is currently using release/versioned branches to support multiple versions.
 
-Chris is a maintainer for OpenZipkin. How releases are happen
+Chris is a maintainer for OpenZipkin. How releases are happening there, https://github.com/openzipkin/zipkin-finagle/blob/master/.github/workflows/create_release.yml
+
+Chris will try to leverage GitHub Actions for libs, i.e. https://github.com/AudaxHealthInc/lib-kush.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1ODA0ODgyLDEyNTY4MzU5NTAsLTQ2ND
+eyJoaXN0b3J5IjpbMzA0MTU0OTM5LDEyNTY4MzU5NTAsLTQ2ND
 UxMzQ0M119
 -->
