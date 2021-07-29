@@ -10,8 +10,15 @@ Attempt to builds in hosted runners. Use Mac runners for Android builds if neces
 
 ### Phase 2: Optimize CI
 
-If hosted runners are too expenisive,
+If hosted runners are too expenisive, there is now a stronger buinesses case to prioritize resources to providing GitHub Actions self-hosted runners.
+
+## Contacts
+
+iOS: Chase
+
+ - iOS: Chase
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Mzc3NTUwNl19
+eyJoaXN0b3J5IjpbMTY5ODc5NzkyMl19
 -->
