@@ -1,8 +1,10 @@
 # 2021-07-29 Mobile Meeting Notes
 
-Primary Objective: Migrate off of CircleCI
+**Primary Objective**: Migrate off of CircleCI
 
 ## Plan
+
+Tiger is available s
 
 ### Phase 1: Leverage GitHub Actions hosted runners
 
@@ -14,11 +16,10 @@ If hosted runners are too expenisive, there is now a stronger buinesses case to 
 
 ## Contacts
 
-iOS: Chase
-
  - iOS: Chase
- - 
+ - Android: Scott
+ - Tiger: Carlos
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODc5NzkyMl19
+eyJoaXN0b3J5IjpbMTAxNTE3ODM4MF19
 -->
