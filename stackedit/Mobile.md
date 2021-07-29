@@ -6,8 +6,8 @@ Primary Objective: Migrate off of CircleCI
 
 ### Phase 1: Leverage GitHub Actions hosted runners
 
-* Attempt to builds in hosted runners,
+Attempt to builds in hosted runners. Mac for Android builds if necessary)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjA2Mjg3OV19
+eyJoaXN0b3J5IjpbODI1ODMwMDgwXX0=
 -->
