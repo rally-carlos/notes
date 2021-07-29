@@ -4,7 +4,8 @@
 
 ## Plan
 
-Tiger is available s
+Mobile teams teams will run point on actually migration of builds.
+Tiger is available to share knowledge/experience with GitHub Actions. 
 
 ### Phase 1: Leverage GitHub Actions hosted runners
 
@@ -21,5 +22,5 @@ If hosted runners are too expenisive, there is now a stronger buinesses case to 
  - Tiger: Carlos
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTE3ODM4MF19
+eyJoaXN0b3J5IjpbMjU3MTczNzM3XX0=
 -->
