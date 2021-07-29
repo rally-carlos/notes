@@ -12,6 +12,9 @@ versioning:
 
 Chris is currently using release/versioned branches to support multiple versions.
 
+Chris is a maintainer for OpenZipkin. How releases are happen
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjgzNTk1MCwtNDY0NTEzNDQzXX0=
+eyJoaXN0b3J5IjpbNzY1ODA0ODgyLDEyNTY4MzU5NTAsLTQ2ND
+UxMzQ0M119
 -->
