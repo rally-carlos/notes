@@ -1,3 +1,4 @@
+
 # 2021-07-29 Mobile Meeting Notes
 
 **Primary Objective**: Migrate off of CircleCI
@@ -5,7 +6,7 @@
 ## Plan
 
 Mobile teams teams will run point on actually migration of builds.
-Tiger is available to share knowledge/experience with GitHub Actions. Tiger is providing an initial potential workflow, from their understanding of Android/Gradle builds: https://github.com/AudaxHealthInc/megazord-android/pull/4042
+Tiger is available to share knowledge/experience with GitHub Actions. Tiger provided an initial potential workflow, from their understanding of Android/Gradle builds: https://github.com/AudaxHealthInc/megazord-android/pull/4042
 
 ### Phase 1: Leverage GitHub Actions hosted runners
 
@@ -22,5 +23,5 @@ If hosted runners are too expenisive, there is now a stronger buinesses case to 
  - Tiger: Carlos
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg1NjUyMzddfQ==
+eyJoaXN0b3J5IjpbLTY5NTQ0NDMyOF19
 -->
