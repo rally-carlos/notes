@@ -20,9 +20,11 @@ We all agree continous deployment is where we want to be.
 
 Per Chris, teams may not be ready for continous deployment because of testing.
 
-Carlos suggested con
+Carlos suggested conventional commits to easy automating steps for continous deployment, i.e. versioning.
+
+Tiger welcomes Chris as an early adopter for alpha/beta testing and feedback.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI4OTk0NjYsMTI1NjgzNTk1MCwtND
-Y0NTEzNDQzXX0=
+eyJoaXN0b3J5IjpbOTY3ODk0ODU5LDEyNTY4MzU5NTAsLTQ2ND
+UxMzQ0M119
 -->
