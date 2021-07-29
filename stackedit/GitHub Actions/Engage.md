@@ -16,7 +16,13 @@ Chris is a maintainer for OpenZipkin. How releases are happening there, https://
 
 Chris will try to leverage GitHub Actions for libs, i.e. https://github.com/AudaxHealthInc/lib-kush.
 
+We all agree continous deployment is where we want to be.
+
+Per Chris, teams may not be ready for continous deployment because of testing.
+
+Carlos suggested con
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0MTU0OTM5LDEyNTY4MzU5NTAsLTQ2ND
-UxMzQ0M119
+eyJoaXN0b3J5IjpbLTEzNzI4OTk0NjYsMTI1NjgzNTk1MCwtND
+Y0NTEzNDQzXX0=
 -->
