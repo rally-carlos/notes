@@ -14,9 +14,10 @@ brew install postman
 git clone --depth 1 --single-branch git@github.com:AudaxHealthInc/neptune-infra.git
 PIPENV_VENV_IN_PROJECT=true pipenv install
 pipenv shell
-npm install openapi-to-postmanv2
-AWS_PROFILE=rally-dev AWS_DEFAULT_REGION=us-east-1 pipenv run python3 scripts/openapi_to_postman.py --session-auth
+npm install -g openapi-to-postmanv2
+AWS_PROFILE=rally-dev AWS_DEFAULT_REGION=us-east-1 python3 scripts/openapi_to_postman.py --session-auth
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjMyOTMwMSwyMTIwMzA0MzcwXX0=
+eyJoaXN0b3J5IjpbLTEyMTU4MzIxMTgsLTI1MjMyOTMwMSwyMT
+IwMzA0MzcwXX0=
 -->
