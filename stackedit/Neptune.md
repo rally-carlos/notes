@@ -5,6 +5,7 @@
 
 - https://wiki.audaxhealth.com/display/ENG/Neptune+API+Access+Postman
 - https://github.com/AudaxHealthInc/neptune-infra#postman-collections
+- [openapi_to_postman.py](https://github.com/AudaxHealthInc/neptune-infra/blob/master/scripts/openapi_to_postman.py#L1-L17)
 
 ### Steps
 
@@ -16,5 +17,5 @@ pipenv shell
 npm install openapi-to-postmanv2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDkxNzcyMF19
+eyJoaXN0b3J5IjpbMjEyMDMwNDM3MF19
 -->
