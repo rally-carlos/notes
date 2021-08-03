@@ -13,8 +13,8 @@ brew install postman
 git clone --depth 1 --single-branch git@github.com:AudaxHealthInc/neptune-infra.git
 PIPENV_VENV_IN_PROJECT=true pipenv install
 pipenv shell
-
+npm install openapi-to-postmanv2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE0NDQ0NTFdfQ==
+eyJoaXN0b3J5IjpbMTAyNDkxNzcyMF19
 -->
