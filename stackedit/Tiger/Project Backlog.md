@@ -1,9 +1,9 @@
 # Ideas
 
 1. GitHub Actions
-2. Docker images
-3. AMI Builds
+2. On-boarding Readinee
+3. Docker images
+4. AMI Builds
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU1NDc3NTcsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTEzMTA1NzAzMiwtMjA4ODc0NjYxMl19
 -->
