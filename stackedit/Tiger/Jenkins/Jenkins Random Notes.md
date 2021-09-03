@@ -18,6 +18,7 @@ Repos:
  - Update `~/.kube/config`
    ```sh
    aws --profile rally-dev --region us-east-1 eks update-kubeconfig --role-arn arn:aws:iam::144137586169:role/k8s-ops-access --name eks-staging-cje-k8s # eks-cje-k8s
+   aws --profile rally-dev --region us-east-1 eks update-kubeconfig --role-arn arn:aws:iam::144137586169:role/k8s-ops-access --name eks-staging-cje-k8s
    ```
 
 # Retrieve Secrets from Jenkins
@@ -92,5 +93,5 @@ rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTEwOTEyNl19
+eyJoaXN0b3J5IjpbNTYzMzI2NzQ3LDE2MTUxMDkxMjZdfQ==
 -->
