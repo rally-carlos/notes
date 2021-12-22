@@ -28,7 +28,9 @@ Lean Coffee
 	- Ben H. will be rattling cages of those responsible to update their manifest
 - How do better deal w/ log4j of the future
 	- Centralized build image
+	- Limit the number of base images, base, jvm version, node versions. Exceptions requires 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5ODM1NiwtMTQ2MDA3NjYwLC0xNDk1Nz
-UzOTY3LC01NzE5MjY5ODUsNjgyNzc2NjM1XX0=
+eyJoaXN0b3J5IjpbLTU1NzUyNTkzNyw4NDk4MzU2LC0xNDYwMD
+c2NjAsLTE0OTU3NTM5NjcsLTU3MTkyNjk4NSw2ODI3NzY2MzVd
+fQ==
 -->
