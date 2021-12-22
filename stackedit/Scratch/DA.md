@@ -16,7 +16,11 @@ Performance (Golden Gate)
 - N/A
 
 
+- Is there availble documentation for onboarding to GitHub Actions
+  - TL;DR: no
+  - WIP w/ Force team to forge 
+  - Maybe worth docing Linting , Unit Test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgzNTAzNTUsLTE0OTU3NTM5NjcsLT
-U3MTkyNjk4NSw2ODI3NzY2MzVdfQ==
+eyJoaXN0b3J5IjpbLTc1NTEwMTM1MSwtMTQ5NTc1Mzk2NywtNT
+cxOTI2OTg1LDY4Mjc3NjYzNV19
 -->
