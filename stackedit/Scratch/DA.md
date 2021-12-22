@@ -26,9 +26,9 @@ Lean Coffee
 - Performance test and firedrills
 	- manifests not being maintained
 	- Ben H. will be rattling cages of those responsible to update their manifest
-
-
+- How do better deal w/ log4j of the future
+	- Centralized build image
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzQyMDQwMCwtMTQ2MDA3NjYwLC0xND
-k1NzUzOTY3LC01NzE5MjY5ODUsNjgyNzc2NjM1XX0=
+eyJoaXN0b3J5IjpbODQ5ODM1NiwtMTQ2MDA3NjYwLC0xNDk1Nz
+UzOTY3LC01NzE5MjY5ODUsNjgyNzc2NjM1XX0=
 -->
