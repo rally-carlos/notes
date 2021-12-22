@@ -24,8 +24,8 @@ Lean Coffee
   - WIP w/ Force team to onboard -Pavan
   - Maybe worth docing Linting , Unit Test -Carlos
 - Performance test and firedrills
-	- manif
+	- manifests not being maintained
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4NTQ0MjMsLTE0OTU3NTM5NjcsLT
-U3MTkyNjk4NSw2ODI3NzY2MzVdfQ==
+eyJoaXN0b3J5IjpbNjc5NjI1NjAsLTE0OTU3NTM5NjcsLTU3MT
+kyNjk4NSw2ODI3NzY2MzVdfQ==
 -->
