@@ -26,7 +26,9 @@ Lean Coffee
 - Performance test and firedrills
 	- manifests not being maintained
 	- Ben H. will be rattling cages of those responsible to update their manifest
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAwNzY2MCwtMTQ5NTc1Mzk2NywtNT
-cxOTI2OTg1LDY4Mjc3NjYzNV19
+eyJoaXN0b3J5IjpbMTQ1NzQyMDQwMCwtMTQ2MDA3NjYwLC0xND
+k1NzUzOTY3LC01NzE5MjY5ODUsNjgyNzc2NjM1XX0=
 -->
