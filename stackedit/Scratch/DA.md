@@ -25,8 +25,8 @@ Lean Coffee
   - Maybe worth docing Linting , Unit Test -Carlos
 - Performance test and firedrills
 	- manifests not being maintained
-	- Ben H. will be rattling cages of those responsible
+	- Ben H. will be rattling cages of those responsible to update their manifest
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODY5NDgwOSwtMTQ5NTc1Mzk2NywtNT
+eyJoaXN0b3J5IjpbLTE0NjAwNzY2MCwtMTQ5NTc1Mzk2NywtNT
 cxOTI2OTg1LDY4Mjc3NjYzNV19
 -->
