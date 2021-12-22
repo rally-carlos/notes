@@ -1,7 +1,7 @@
 
 
 
-Tiger
+CI [Platform] (Tiger)
 - Bump Jenkins worker capsity to 20 to prevent large build queues
 - Cleanup artifacts in Artifactory to improve speed
 
@@ -15,5 +15,5 @@ Metrics (Gizmo)
 Performance (Golden Gate)
 - N/A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNzc2NjM1XX0=
+eyJoaXN0b3J5IjpbLTU3MTkyNjk4NSw2ODI3NzY2MzVdfQ==
 -->
