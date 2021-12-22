@@ -9,8 +9,11 @@ BigCat
 - Announcing neptunectl
 - Preping to move API to prod
 
-Metrics
-- Add 3
+Metrics (Gizmo)
+- Updated dashboards
+
+Performance (Golden Gate)
+- N/A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM3OTA2NDZdfQ==
+eyJoaXN0b3J5IjpbNjgyNzc2NjM1XX0=
 -->
