@@ -29,9 +29,10 @@ Lean Coffee
 - How do better deal w/ log4j of the future
 	- Centralized build image -Glenn
 	- Limit the number of base images, base, jvm version, node versions. Exceptions requires Sec. -Carlos
-	- Pavan investigating 
+	- Pavan investigating base container
+	- Have Ariemites query for transitive deps -Glenn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjIxODA3OSw4NDk4MzU2LC0xNDYwMD
-c2NjAsLTE0OTU3NTM5NjcsLTU3MTkyNjk4NSw2ODI3NzY2MzVd
-fQ==
+eyJoaXN0b3J5IjpbLTEwODMzNjE0MDgsLTQyMjIxODA3OSw4ND
+k4MzU2LC0xNDYwMDc2NjAsLTE0OTU3NTM5NjcsLTU3MTkyNjk4
+NSw2ODI3NzY2MzVdfQ==
 -->
