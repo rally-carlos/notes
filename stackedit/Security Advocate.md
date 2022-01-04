@@ -10,9 +10,10 @@ for RENV in defaultaccess-rally-dev scab-rally-prod; do connect-to-scab -D -e ${
 
 ```
 connect-to-scab -e defaultaccess-rally-dev -t stoic-hoover -s 3130
+connect-to-scab -e defaultaccess-rally-dev -t prickly-flower -s 3132 -D
 connect-to-scab -e scab-rally-prod -D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTE5OTM3NiwtMTEyNjYxNTkyNiw4Nj
+eyJoaXN0b3J5IjpbLTIwMTY4MTIwMSwtMTEyNjYxNTkyNiw4Nj
 c5MzczNTBdfQ==
 -->
