@@ -6,10 +6,13 @@ AWS_PROFILE='rally-prod' aws eks update-kubeconfig --name eks-artifactory-prod-1
 kubectl config rename-context arn:aws:eks:us-east-1:738699725475:cluster/eks-artifactory-prod-1 artifactory-prod
 ```
 
+```
+kubectl config rename-context arn:aws:eks:us-east-1:738699725475:cluster/eks-artifactory-prod-1 artifactory-prod
+```
 ## Misc
 
 * [Delete artifact](https://wiki.audaxhealth.com/x/ppLOAg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MDc0ODQ1LC02MTMzMTczNDAsMTY2ND
-AyNzM0M119
+eyJoaXN0b3J5IjpbLTIwNjM3NTYxODUsMjg3MDc0ODQ1LC02MT
+MzMTczNDAsMTY2NDAyNzM0M119
 -->
