@@ -8,7 +8,7 @@ kubectl config rename-context arn:aws:eks:us-east-1:738699725475:cluster/eks-art
 
 ## k9s
 ```
-k9s --context artifactory-prod --namespace artifactory-h
+k9s --context artifactory-prod --namespace artifactory-ha
 ```
 
 
@@ -16,6 +16,6 @@ k9s --context artifactory-prod --namespace artifactory-h
 
 * [Delete artifact](https://wiki.audaxhealth.com/x/ppLOAg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Mzk0MjgyOSwyODcwNzQ4NDUsLTYxMz
-MxNzM0MCwxNjY0MDI3MzQzXX0=
+eyJoaXN0b3J5IjpbLTE5OTk0NTUzNDIsMTY3Mzk0MjgyOSwyOD
+cwNzQ4NDUsLTYxMzMxNzM0MCwxNjY0MDI3MzQzXX0=
 -->
