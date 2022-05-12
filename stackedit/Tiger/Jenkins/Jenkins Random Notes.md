@@ -93,24 +93,25 @@ rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ## Terminate Offline Workers
 
 ```bash
-TEAM=
-curl -nsS https://ci.rally-dev.com/teams-${TEAM}/computer/api/json | jq -r '."computer"[] | select(.offline==true) |.displayName'
+JENKINS_URL=https://ci.rally-dev.com/teams-<TEAM>
+curl -nsS "${JENKINS_URL}/computer/api/json" | jq -r '."computer"[] | select(.offline==true) |.displayName'
   | grep -oE 'i-([a-z]|[0-9])*'
   | xargs aws --profile=rally-dev --region=us-east-1 ec2 terminate-instances --instance-ids'
 sleep 1
-groovysh <<< '
-for (aSlave in hudson.model.Hudson.instance.slaves) {
-  if (aSlave.getComputer().isOffline()) {
-    computer = aSlave.getComputer()
+java -jar jenkins-cli.jar groovysh <<< '
+  for (aSlave in hudson.model.Hudson.instance.slaves) {
+    if (aSlave.getComputer().isOffline()) {
+      computer = aSlave.getComputer()
       println("Deleting: " + computer.getName())
       computer.doDoDelete()
+    }
   }
-}'
+'
 ```
 
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODc0MTE2NSwtOTU5MDY3Mzc2LDU2Mz
-MyNjc0NywxNjE1MTA5MTI2XX0=
+eyJoaXN0b3J5IjpbLTE5NjM4MDgzNDIsLTk1OTA2NzM3Niw1Nj
+MzMjY3NDcsMTYxNTEwOTEyNl19
 -->
