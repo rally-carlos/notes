@@ -93,7 +93,7 @@ rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ## Terminate Offline Workers
 
 ```bash
-JENKINS_USER_ID=
+JENKINS_USER_ID=<FIRST>.<LAST>@rallyhealth.com
 JENKINS_API_TOKEN=
 JENKINS_URL=https://ci.rally-dev.com/teams-<TEAM>
 
@@ -109,6 +109,6 @@ java -jar jenkins-cli.jar delete-nodes ${NODES}
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ2NjY4MjYsLTk1OTA2NzM3Niw1Nj
+eyJoaXN0b3J5IjpbLTE5NDUzNDE0OTEsLTk1OTA2NzM3Niw1Nj
 MzMjY3NDcsMTYxNTEwOTEyNl19
 -->
