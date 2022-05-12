@@ -90,8 +90,18 @@ du -hd0 /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/* | sort -hr
 rm -rf -- /var/jenkins_home/jobs/fire-drill/jobs/fill_disk/builds/
 ```
 
+##
+
+```bash
+TEAM=
+curl -nsS https://ci.rally-dev.com/teams-${TEAM}/computer/api/json | jq -r '."computer"[] | select(.offline==true) |.displayName'
+  | grep -oE 'i-([a-z]|[0-9])*'
+  | xargs aws --profile=rally-dev --region=us-east-1 ec2 terminate-instances --instance-ids'
+```
+
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzMzI2NzQ3LDE2MTUxMDkxMjZdfQ==
+eyJoaXN0b3J5IjpbNDQ5NjM5MjA5LDU2MzMyNjc0NywxNjE1MT
+A5MTI2XX0=
 -->
