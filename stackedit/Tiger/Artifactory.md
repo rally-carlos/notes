@@ -11,11 +11,17 @@ kubectl config rename-context arn:aws:eks:us-east-1:738699725475:cluster/eks-art
 k9s --context artifactory-prod --namespace artifactory-ha
 ```
 
+## Datadog
+
+- [Synthetics](https://app.datadoghq.com/synthetics/details/i5c-44j-qnn)
+- 
+
 
 ## Misc
 
 * [Delete artifact](https://wiki.audaxhealth.com/x/ppLOAg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk0NTUzNDIsMTY3Mzk0MjgyOSwyOD
-cwNzQ4NDUsLTYxMzMxNzM0MCwxNjY0MDI3MzQzXX0=
+eyJoaXN0b3J5IjpbNzg5NTM5NjM0LC0xOTk5NDU1MzQyLDE2Nz
+M5NDI4MjksMjg3MDc0ODQ1LC02MTMzMTczNDAsMTY2NDAyNzM0
+M119
 -->
