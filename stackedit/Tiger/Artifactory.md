@@ -15,12 +15,13 @@ k9s --context artifactory-prod --namespace artifactory-ha
 
 - [Synthetics](https://app.datadoghq.com/synthetics/details/i5c-44j-qnn)
 - [Artifactory-HA Deployment dashboard](https://app.datadoghq.com/dashboard/nrc-brf-43w)
+- [Artifactory](https://app.datadoghq.com/dashboard/gju-pue-mxj) (RDS)
 
 ## Misc
 
 * [Delete artifact](https://wiki.audaxhealth.com/x/ppLOAg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MjU5MzQ5LDc4OTUzOTYzNCwtMTk5OT
-Q1NTM0MiwxNjczOTQyODI5LDI4NzA3NDg0NSwtNjEzMzE3MzQw
-LDE2NjQwMjczNDNdfQ==
+eyJoaXN0b3J5IjpbNzI3MjI0NTIwLDYwNTI1OTM0OSw3ODk1Mz
+k2MzQsLTE5OTk0NTUzNDIsMTY3Mzk0MjgyOSwyODcwNzQ4NDUs
+LTYxMzMxNzM0MCwxNjY0MDI3MzQzXX0=
 -->
