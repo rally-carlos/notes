@@ -2,7 +2,7 @@
 
 ## Access
 ```bash
-AWS_PROFILE='rally-prod' aws eks update-kubeconfig --name eks-artifactory-prod-1 --role-arn arn:aws:iam::738699725475:role/k8s-ops-access --region=us-east-1
+aws --profile rally-prod --region us-east-1 eks update-kubeconfig --name eks-artifactory-prod-1 --role-arn arn:aws:iam::738699725475:role/k8s-ops-access
 kubectl config rename-context arn:aws:eks:us-east-1:738699725475:cluster/eks-artifactory-prod-1 artifactory-prod
 ```
 
@@ -21,7 +21,7 @@ k9s --context artifactory-prod --namespace artifactory-ha
 
 * [Delete artifact](https://wiki.audaxhealth.com/x/ppLOAg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3MjI0NTIwLDYwNTI1OTM0OSw3ODk1Mz
-k2MzQsLTE5OTk0NTUzNDIsMTY3Mzk0MjgyOSwyODcwNzQ4NDUs
-LTYxMzMxNzM0MCwxNjY0MDI3MzQzXX0=
+eyJoaXN0b3J5IjpbNTg2MzIxNjIyLDcyNzIyNDUyMCw2MDUyNT
+kzNDksNzg5NTM5NjM0LC0xOTk5NDU1MzQyLDE2NzM5NDI4Mjks
+Mjg3MDc0ODQ1LC02MTMzMTczNDAsMTY2NDAyNzM0M119
 -->
