@@ -13,7 +13,13 @@ connect-to-scab -e defaultaccess-rally-dev -t stoic-hoover -s 3130
 connect-to-scab -e defaultaccess-rally-dev -t prickly-flower -s 3132 -D
 connect-to-scab -e scab-rally-prod -D
 ```
+
+## new new
+
+connect-to-scab -e defaultaccess-rally-dev -t stoic-hoover -s 3130
+connect-to-scab -e defaultaccess-rally-dev -t prickly-flower -s 3132 -D
+connect-to-scab -e scab-rally-prod -D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY4MTIwMSwtMTEyNjYxNTkyNiw4Nj
-c5MzczNTBdfQ==
+eyJoaXN0b3J5IjpbOTQ1MTQxMDk1LC0yMDE2ODEyMDEsLTExMj
+Y2MTU5MjYsODY3OTM3MzUwXX0=
 -->
