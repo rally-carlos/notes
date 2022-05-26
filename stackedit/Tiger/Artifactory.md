@@ -17,11 +17,17 @@ k9s --context artifactory-prod --namespace artifactory-ha
 - [Artifactory-HA Deployment dashboard](https://app.datadoghq.com/dashboard/nrc-brf-43w)
 - [Artifactory](https://app.datadoghq.com/dashboard/gju-pue-mxj) (RDS)
 
+## Infrastructure As Code
+
+- https://github.com/AudaxHealthInc/helm-artifactory-ha
+- https://github.com/AudaxHealthInc/artifactory-ha-infra
+
 ## Misc
 
 * [Delete artifact](https://wiki.audaxhealth.com/x/ppLOAg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2MzIxNjIyLDcyNzIyNDUyMCw2MDUyNT
-kzNDksNzg5NTM5NjM0LC0xOTk5NDU1MzQyLDE2NzM5NDI4Mjks
-Mjg3MDc0ODQ1LC02MTMzMTczNDAsMTY2NDAyNzM0M119
+eyJoaXN0b3J5IjpbMjQwNzI0ODAwLDU4NjMyMTYyMiw3MjcyMj
+Q1MjAsNjA1MjU5MzQ5LDc4OTUzOTYzNCwtMTk5OTQ1NTM0Miwx
+NjczOTQyODI5LDI4NzA3NDg0NSwtNjEzMzE3MzQwLDE2NjQwMj
+czNDNdfQ==
 -->
