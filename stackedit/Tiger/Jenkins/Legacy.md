@@ -7,7 +7,8 @@
  - https://github.com/AudaxHealthInc/build-ami/commit/894600226571412fa84253c23ce2bd79b2d015ee
  - https://github.com/AudaxHealthInc/terraform-infra/blob/29b1fc444ddb120c4fd0878fdcebfca79b57b811/trident-jenkins/rally-prod/trident_jenkins.tf
  - https://github.com/AudaxHealthInc/terraform-jenkins-master-oss
+ - [Updating OSS Jenkins via terraform ("trident")](https://wiki.audaxhealth.com/x/4SEpAw)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM5OTA2MTMsLTEwOTI0Nzk0MTQsMT
-Q0NTgyNDg5MV19
+eyJoaXN0b3J5IjpbLTc1OTQ0MzY5NiwtMjE0Mzk5MDYxMywtMT
+A5MjQ3OTQxNCwxNDQ1ODI0ODkxXX0=
 -->
