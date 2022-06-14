@@ -107,13 +107,14 @@ java -jar jenkins-cli.jar delete-nodes ${NODES}
 ```
 
 # Restore
--
+- https://docs.cloudbees.com/docs/admin-resources/latest/backup-restore/
+- https://docs.cloudbees.com/docs/admin-resources/latest/backup-restore/restoring-from-backup-plugin
 - https://docs.cloudbees.com/docs/admin-resources/latest/backup-restore/kubernetes
 - 
 
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzU0NTYxNywtMTk0NTM0MTQ5MSwtOT
-U5MDY3Mzc2LDU2MzMyNjc0NywxNjE1MTA5MTI2XX0=
+eyJoaXN0b3J5IjpbNzYzMDI5OTEsLTE5NDUzNDE0OTEsLTk1OT
+A2NzM3Niw1NjMzMjY3NDcsMTYxNTEwOTEyNl19
 -->
