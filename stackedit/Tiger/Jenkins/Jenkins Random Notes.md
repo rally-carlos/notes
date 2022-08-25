@@ -25,14 +25,15 @@ Repos:
 
 ## Get Decryption Key
 ```groovy
-import com.cloudbees.plugins.credentials.*;  
-import com.cloudbees.plugins.credentials.domains.Domain;  
-import org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl;
+import com.cloudbees.plugins.credentials.*
+import com.cloudbees.plugins.credentials.domains.Domain
+import org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl
 
 println "Jenkins credentials config file location=" + SystemCredentialsProvider.getConfigFile();  
 println ""
 println "cat /var/jenkins_home/credentials.xml".execute().text    // only works with files, no un/pw  
 
+// Does not seem to work
 SystemCredentialsProvider.getInstance().getCredentials().stream().  
     filter { cred -> cred instanceof FileCredentialsImpl }.  
     map { fileCred -> (FileCredentialsImpl) fileCred }.  
@@ -119,7 +120,7 @@ java -jar jenkins-cli.jar delete-nodes ${NODES}
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk1ODQwOTcsMTE2Mjg2MzY4NSwtMj
-c1NTEwMTUwLDc2MzAyOTkxLC0xOTQ1MzQxNDkxLC05NTkwNjcz
-NzYsNTYzMzI2NzQ3LDE2MTUxMDkxMjZdfQ==
+eyJoaXN0b3J5IjpbMTA0MzQxNDU4NiwxMTYyODYzNjg1LC0yNz
+U1MTAxNTAsNzYzMDI5OTEsLTE5NDUzNDE0OTEsLTk1OTA2NzM3
+Niw1NjMzMjY3NDcsMTYxNTEwOTEyNl19
 -->
