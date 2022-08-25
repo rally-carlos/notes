@@ -29,8 +29,10 @@ import com.cloudbees.plugins.credentials.*;
 import com.cloudbees.plugins.credentials.domains.Domain;  
 import org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl;
 println "Jenkins credentials config file location=" + SystemCredentialsProvider.getConfigFile();  
-    println ""	println "cat /var/jenkins_home/credentials.xml".execute().text    // only works with files, no un/pw  
-    SystemCredentialsProvider.getInstance().getCredentials().stream().  
+println ""
+println "cat /var/jenkins_home/credentials.xml".execute().text    // only works with files, no un/pw  
+
+SystemCredentialsProvider.getInstance().getCredentials().stream().  
     filter { cred -> cred instanceof FileCredentialsImpl }.  
     map { fileCred -> (FileCredentialsImpl) fileCred }.  
     forEach { fileCred ->   
@@ -116,7 +118,7 @@ java -jar jenkins-cli.jar delete-nodes ${NODES}
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODgzNTEzOSw3NjMwMjk5MSwtMTk0NT
-M0MTQ5MSwtOTU5MDY3Mzc2LDU2MzMyNjc0NywxNjE1MTA5MTI2
-XX0=
+eyJoaXN0b3J5IjpbMzkyNDkwMDk3LDc2MzAyOTkxLC0xOTQ1Mz
+QxNDkxLC05NTkwNjczNzYsNTYzMzI2NzQ3LDE2MTUxMDkxMjZd
+fQ==
 -->
