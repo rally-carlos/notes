@@ -36,7 +36,7 @@ println "cat /var/jenkins_home/credentials.xml".execute().text    // only works 
 
 ```groovy
 import org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl
-SystemCredentialsProvider.getInstance().getCredentials().stream().  
+com.cloudbees.plugins.credentials.SystemCredentialsProvider.getInstance().getCredentials().stream().  
     filter { cred -> cred instanceof FileCredentialsImpl }.  
     map { fileCred -> (FileCredentialsImpl) fileCred }.  
     forEach { fileCred ->   
@@ -122,7 +122,7 @@ java -jar jenkins-cli.jar delete-nodes ${NODES}
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTUxMDE1MCw3NjMwMjk5MSwtMTk0NT
-M0MTQ5MSwtOTU5MDY3Mzc2LDU2MzMyNjc0NywxNjE1MTA5MTI2
-XX0=
+eyJoaXN0b3J5IjpbMTE2Mjg2MzY4NSwtMjc1NTEwMTUwLDc2Mz
+AyOTkxLC0xOTQ1MzQxNDkxLC05NTkwNjczNzYsNTYzMzI2NzQ3
+LDE2MTUxMDkxMjZdfQ==
 -->
