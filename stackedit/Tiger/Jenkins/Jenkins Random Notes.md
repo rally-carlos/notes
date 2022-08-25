@@ -46,6 +46,32 @@ SystemCredentialsProvider.getInstance().getCredentials().stream().
     }
 ```
 
+```groovy
+import com.cloudbees.plugins.credentials.CredentialsProvider
+import com.cloudbees.plugins.credentials.Credentials
+import com.cloudbees.plugins.credentials.domains.Domain
+import jenkins.model.Jenkins
+
+Jenkins.get().allItems().collectMany{ CredentialsProvider.lookupStores(it).toList()}.unique().forEach { store ->
+  Map<Domain, List<Credentials>> domainCreds = [:]
+  store.domains.each { domainCreds.put(it, store.getCredentials(it))}
+  if (domainCreds.collectMany{ it.value}.empty) {
+    return
+  }
+  def shortenedClassName = store.getClass().name.substring(store.getClass().name.lastIndexOf(".") + 1)
+  println "Credentials for store context: ${store.contextDisplayName}, of type $shortenedClassName"
+  domainCreds.forEach { domain , creds ->
+    println("Domain: ${domain.name}")
+    creds.each { cred ->
+      cred.properties.each { prop, val ->
+        println("$prop = \"$val\"")
+      }
+      println('-----------------------')
+    }
+  }
+}
+```
+
 ## Decrypt Secret
 
 Source:
@@ -120,7 +146,7 @@ java -jar jenkins-cli.jar delete-nodes ${NODES}
 # Check if we do this
 * https://support.cloudbees.com/hc/en-us/articles/215549798-Best-Strategy-for-Disk-Space-Management-Clean-Up-Old-Builds?page=4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzQxNDU4NiwxMTYyODYzNjg1LC0yNz
-U1MTAxNTAsNzYzMDI5OTEsLTE5NDUzNDE0OTEsLTk1OTA2NzM3
-Niw1NjMzMjY3NDcsMTYxNTEwOTEyNl19
+eyJoaXN0b3J5IjpbLTc4MTg0NjczOCwxMDQzNDE0NTg2LDExNj
+I4NjM2ODUsLTI3NTUxMDE1MCw3NjMwMjk5MSwtMTk0NTM0MTQ5
+MSwtOTU5MDY3Mzc2LDU2MzMyNjc0NywxNjE1MTA5MTI2XX0=
 -->
